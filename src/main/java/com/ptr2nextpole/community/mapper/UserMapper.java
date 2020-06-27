@@ -1,5 +1,6 @@
 package com.ptr2nextpole.community.mapper;
 
+import com.ptr2nextpole.community.model.Question;
 import com.ptr2nextpole.community.model.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
@@ -17,4 +18,7 @@ public interface UserMapper {
 
     @Select("select * from USER where TOKEN = #{token}")
     User findByToken(@Param("token") String token);
+
+    @Select("select * from USER where ID = #{id}")
+    User findById(@Param("id") Integer id);
 }
