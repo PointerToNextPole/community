@@ -8,6 +8,7 @@ import com.ptr2nextpole.community.model.Question;
 import com.ptr2nextpole.community.model.User;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class QuestionService {
         PaginationDTO paginationDTO = new PaginationDTO();
         Integer totalCount = questionMapper.count();
 
-        Integer totalPage = (int)Math.ceil((double)totalCount / size);
+        Integer totalPage = (int) Math.ceil((double) totalCount / size);
 
         if (page < 1) {
             page = 1;
@@ -60,7 +61,7 @@ public class QuestionService {
         PaginationDTO paginationDTO = new PaginationDTO();
         Integer totalCount = questionMapper.countByUserId(userId);
 
-        Integer totalPage = (int)Math.ceil((double)totalCount / size);
+        Integer totalPage = (int) Math.ceil((double) totalCount / size);
 
         if (page < 1) {
             page = 1;
@@ -87,5 +88,16 @@ public class QuestionService {
         paginationDTO.setQuestions(questionDTOList);
 
         return paginationDTO;
+    }
+
+    public QuestionDTO getById(Integer id) {
+
+        Question question = questionMapper.getById(id);
+        QuestionDTO questionDTO = new QuestionDTO();
+        BeanUtils.copyProperties(question, questionDTO);
+        User user = userMapper.findById(question.getCreator());
+        questionDTO.setUser(user);
+
+        return questionDTO;
     }
 }
