@@ -2,10 +2,7 @@ package com.ptr2nextpole.community.mapper;
 
 import com.ptr2nextpole.community.model.Question;
 import com.ptr2nextpole.community.model.User;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -21,4 +18,11 @@ public interface UserMapper {
 
     @Select("select * from USER where ID = #{id}")
     User findById(@Param("id") Integer id);
+
+    @Select("select * from USER where ACCOUNT_ID = #{accountId}")
+    User findByAccountId(@Param("accountId") String accountId);
+
+    @Update("update USER set name = #{name}, token = #{token}, gmt_modified = #{gmtModified}, " +
+            "avatar_url = #{avatarUrl} where id = #{id}")
+    void update(User user);
 }
