@@ -1,18 +1,18 @@
-body{
+body {
     background-color: #efefef;
 }
 
-.main{
+.main {
     background-color: white;
-    margin:30px;
+    margin: 30px;
 }
 
-.btn-publish{
+.btn-publish {
     float: right;
     margin-bottom: 15px;
 }
 
-.media-object{
+.media-object {
     width: 55px;
     height: 55px;
 }
@@ -21,4 +21,8 @@ body{
     font-size: 12px;
     font-weight: normal;
     color: #999;
+}
+
+.profile .section {
+    margin-top: 15px;
 }

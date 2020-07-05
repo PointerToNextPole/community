@@ -17,16 +17,10 @@ public class PaginationDTO {
     private List<Integer> pages = new ArrayList<>(); // 当前展示的页数列表
     private Integer totalPage; // 总页数
 
-    public void setPagination(Integer totalCount, Integer page, Integer size) {
+    public void setPagination(Integer totalPage, Integer page) {
 
-        totalPage = (int)Math.ceil((double)totalCount / size);
-
-        if(page < 1){
-            page = 1;
-        }else if(page > totalPage){
-            page = totalPage;
-        }
         this.page = page;
+        this.totalPage = totalPage;
 
         pages.add(page);
         for (int i = 1; i <= 3; i++) {
@@ -45,7 +39,7 @@ public class PaginationDTO {
         //是否展示第一页
         showFirstPage = pages.contains(1) ? false : true;
         //是否展示末页
-        showEndPage = pages.contains(totalCount) ? false : true;
+        showEndPage = pages.contains(totalPage) ? false : true;
 
     }
 }
