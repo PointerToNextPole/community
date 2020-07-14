@@ -2,7 +2,6 @@ package com.ptr2nextpole.community.controller;
 
 import com.ptr2nextpole.community.dto.AccessTokenDTO;
 import com.ptr2nextpole.community.dto.GithubUser;
-import com.ptr2nextpole.community.mapper.UserMapper;
 import com.ptr2nextpole.community.model.User;
 import com.ptr2nextpole.community.provider.GithubProvider;
 import com.ptr2nextpole.community.service.UserService;
@@ -22,8 +21,6 @@ public class AuthorizeController {
 
     @Autowired
     private GithubProvider githubProvider;
-    @Autowired
-    private UserMapper userMapper;
     @Autowired
     private UserService userService;
 
