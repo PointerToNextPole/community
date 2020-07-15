@@ -1,7 +1,6 @@
 package com.ptr2nextpole.community.controller;
 
 import com.ptr2nextpole.community.dto.QuestionDTO;
-import com.ptr2nextpole.community.mapper.QuestionMapper;
 import com.ptr2nextpole.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,6 +19,8 @@ public class QuestionController {
                            Model model) {
 
         QuestionDTO questionDTO = questionService.getById(id);
+        //累加阅读数
+        questionService.incView(id);
         model.addAttribute("question", questionDTO);
 
         return "question";

@@ -4,6 +4,7 @@ import com.ptr2nextpole.community.dto.PaginationDTO;
 import com.ptr2nextpole.community.dto.QuestionDTO;
 import com.ptr2nextpole.community.exception.CustomizeErrorCode;
 import com.ptr2nextpole.community.exception.CustomizeException;
+import com.ptr2nextpole.community.mapper.QuestionExtMapper;
 import com.ptr2nextpole.community.mapper.QuestionMapper;
 import com.ptr2nextpole.community.mapper.UserMapper;
 import com.ptr2nextpole.community.model.Question;
@@ -24,6 +25,8 @@ public class QuestionService {
     private UserMapper userMapper;
     @Autowired
     private QuestionMapper questionMapper;
+    @Autowired
+    private QuestionExtMapper questionExtMapper;
 
     public PaginationDTO list(Integer page, Integer size) {
 
@@ -139,5 +142,13 @@ public class QuestionService {
                 throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
             }
         }
+    }
+
+    public void incView(Integer id) {
+
+        Question question = new Question();
+        question.setId(id);
+        question.setViewCount(1);
+        questionExtMapper.incView(question);
     }
 }
