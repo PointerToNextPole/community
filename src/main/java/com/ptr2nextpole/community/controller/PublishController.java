@@ -1,7 +1,6 @@
 package com.ptr2nextpole.community.controller;
 
 import com.ptr2nextpole.community.dto.QuestionDTO;
-import com.ptr2nextpole.community.mapper.QuestionMapper;
 import com.ptr2nextpole.community.model.Question;
 import com.ptr2nextpole.community.model.User;
 import com.ptr2nextpole.community.service.QuestionService;
@@ -22,7 +21,7 @@ public class PublishController {
     private QuestionService questionService;
 
     @GetMapping("/publish/{id}")
-    public String edit(@PathVariable(name = "id") Integer id,
+    public String edit(@PathVariable(name = "id") Long id,
                        Model model) {
 
         QuestionDTO questionDTO = questionService.getById(id);
@@ -44,7 +43,7 @@ public class PublishController {
     public String doPublish(@RequestParam("title") String title,
                             @RequestParam("description") String description,
                             @RequestParam("tag") String tag,
-                            @RequestParam("id") Integer id,
+                            @RequestParam("id") Long id,
                             HttpServletRequest request,
                             Model model) {
 

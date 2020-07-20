@@ -52,7 +52,6 @@ public class QuestionService {
         if (questions != null && questions.size() != 0) {
             for (Question question : questions) {
 
-
                 User user = userMapper.selectByPrimaryKey(question.getCreator());
                 QuestionDTO questionDTO = new QuestionDTO();
                 BeanUtils.copyProperties(question, questionDTO);
@@ -65,7 +64,7 @@ public class QuestionService {
         return paginationDTO;
     }
 
-    public PaginationDTO list(Integer userId, Integer page, Integer size) {
+    public PaginationDTO list(Long userId, Integer page, Integer size) {
 
         PaginationDTO paginationDTO = new PaginationDTO();
         QuestionExample questionExample = new QuestionExample();
@@ -105,7 +104,7 @@ public class QuestionService {
         return paginationDTO;
     }
 
-    public QuestionDTO getById(Integer id) {
+    public QuestionDTO getById(Long id) {
 
         Question question = questionMapper.selectByPrimaryKey(id);
 
@@ -144,7 +143,7 @@ public class QuestionService {
         }
     }
 
-    public void incView(Integer id) {
+    public void incView(Long id) {
 
         Question question = new Question();
         question.setId(id);
