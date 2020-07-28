@@ -17,10 +17,14 @@ body {
     height: 55px;
 }
 
+.media-body {
+    padding-top: 15px;
+}
+
 .text-desc {
     font-size: 12px;
     font-weight: normal;
-    color: #999;
+    color: #999999;
 }
 
 .profile .section {
@@ -34,4 +38,14 @@ body {
 
 .jumbotron {
     margin: 50px;
+}
+
+.comment {
+    margin: 10px 0;
+}
+
+.btn-comment {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
