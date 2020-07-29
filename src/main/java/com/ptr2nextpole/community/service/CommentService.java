@@ -4,15 +4,12 @@ import com.ptr2nextpole.community.dto.CommentDTO;
 import com.ptr2nextpole.community.enums.CommentTypeEnum;
 import com.ptr2nextpole.community.exception.CustomizeErrorCode;
 import com.ptr2nextpole.community.exception.CustomizeException;
-import com.ptr2nextpole.community.mapper.CommentMapper;
-import com.ptr2nextpole.community.mapper.QuestionExtMapper;
-import com.ptr2nextpole.community.mapper.QuestionMapper;
-import com.ptr2nextpole.community.mapper.UserMapper;
+import com.ptr2nextpole.community.mapper.*;
 import com.ptr2nextpole.community.model.*;
 import org.springframework.beans.BeanUtils;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -30,6 +27,8 @@ public class CommentService {
     private QuestionExtMapper questionExtMapper;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private CommentExtMapper commentExtMapper;
 
     public void insert(Comment comment) {
 
@@ -44,6 +43,12 @@ public class CommentService {
                 throw new CustomizeException(CustomizeErrorCode.COMMENT_NOT_FOUND);
             }
             commentMapper.insertSelective(comment);
+
+            //增加评论数
+            Comment parentComment = new Comment();
+            parentComment.setId(comment.getParentId());
+            parentComment.setCommentCount(1);
+            commentExtMapper.incCommentCount(parentComment);
         } else {
             //回复问题
             Question question = questionMapper.selectByPrimaryKey(comment.getParentId());
