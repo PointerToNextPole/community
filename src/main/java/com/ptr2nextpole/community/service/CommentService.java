@@ -10,9 +10,9 @@ import com.ptr2nextpole.community.mapper.QuestionMapper;
 import com.ptr2nextpole.community.mapper.UserMapper;
 import com.ptr2nextpole.community.model.*;
 import org.springframework.beans.BeanUtils;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -63,7 +63,7 @@ public class CommentService {
                 .andParentIdEqualTo(id)
                 .andTypeEqualTo(CommentTypeEnum.QUESTION.getType());
         List<Comment> comments = commentMapper.selectByExample(commentExample);
-
+        commentExample.setOrderByClause("gmt_create desc");
         if(comments.size() == 0){
             return new ArrayList<>();
         }
