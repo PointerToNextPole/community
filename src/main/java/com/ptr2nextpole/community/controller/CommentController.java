@@ -1,6 +1,6 @@
 package com.ptr2nextpole.community.controller;
 
-import com.ptr2nextpole.community.dto.CommentDTO;
+import com.ptr2nextpole.community.dto.CommentCreateDTO;
 import com.ptr2nextpole.community.dto.ResultDTO;
 import com.ptr2nextpole.community.exception.CustomizeErrorCode;
 import com.ptr2nextpole.community.model.Comment;
@@ -22,7 +22,7 @@ public class CommentController {
 
     @ResponseBody
     @PostMapping("/comment")
-    public Object comment(@RequestBody CommentDTO commentDTO,
+    public Object comment(@RequestBody CommentCreateDTO commentDTO,
                           HttpServletRequest request) {
 
         User user = (User)request.getSession().getAttribute("user");
