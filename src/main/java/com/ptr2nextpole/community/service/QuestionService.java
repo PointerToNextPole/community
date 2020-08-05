@@ -71,11 +71,18 @@ public class QuestionService {
         questionExample.setOrderByClause("gmt_create desc");
         List<Question> questions = questionMapper.selectByExampleWithBLOBsWithRowbounds(
                 questionExample, new RowBounds(offset, size));
+
+        //防止description过长
+        for (Question question : questions) {
+            if(question.getDescription().length() > 50){
+                question.setDescription(question.getDescription().substring(0, 50) + "...");
+            }
+        }
+
         List<QuestionDTO> questionDTOList = new ArrayList<>();
 
         if (questions != null && questions.size() != 0) {
             for (Question question : questions) {
-
                 User user = userMapper.selectByPrimaryKey(question.getCreator());
                 QuestionDTO questionDTO = new QuestionDTO();
                 BeanUtils.copyProperties(question, questionDTO);
