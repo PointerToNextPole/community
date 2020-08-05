@@ -83,7 +83,7 @@ public class QuestionService {
                 questionDTOList.add(questionDTO);
             }
         }
-        paginationDTO.setQuestions(questionDTOList);
+        paginationDTO.setData(questionDTOList);
 
         return paginationDTO;
     }
@@ -109,7 +109,7 @@ public class QuestionService {
 
         QuestionExample example = new QuestionExample();
         questionExample.createCriteria().andCreatorEqualTo(userId);
-        List<Question> questions = questionMapper.selectByExampleWithBLOBsWithRowbounds(
+        List<Question> questions = questionMapper.selectByExampleWithRowbounds(
                 example, new RowBounds(offset, size));
 
         List<QuestionDTO> questionDTOList = new ArrayList<>();
@@ -123,7 +123,7 @@ public class QuestionService {
                 questionDTOList.add(questionDTO);
             }
         }
-        paginationDTO.setQuestions(questionDTOList);
+        paginationDTO.setData(questionDTOList);
 
         return paginationDTO;
     }
