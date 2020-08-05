@@ -1,7 +1,6 @@
 package com.ptr2nextpole.community.controller;
 
 import com.ptr2nextpole.community.dto.PaginationDTO;
-import com.ptr2nextpole.community.mapper.UserMapper;
 import com.ptr2nextpole.community.model.User;
 import com.ptr2nextpole.community.service.NotificationService;
 import com.ptr2nextpole.community.service.QuestionService;
@@ -17,8 +16,6 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class ProfileController {
 
-    @Autowired
-    private UserMapper userMapper;
     @Autowired
     private QuestionService questionService;
     @Autowired
@@ -49,7 +46,6 @@ public class ProfileController {
             Long unreadCount = notificationService.unreadCount(user.getId());
             model.addAttribute("section", "replies");
             model.addAttribute("pagination", paginationDTO);
-            model.addAttribute("unreadCount", unreadCount);
             model.addAttribute("sectionName", "最新回复");
         }
 
