@@ -20,11 +20,21 @@ public class UCloudProvider {
 
     @Value("${ucloud.ufile.public-key}")
     private String publicKey;
+
     @Value("${ucloud.ufile.private-key}")
     private String privateKey;
 
-    String bucketName = "yan-community";
+    @Value("${ucloud.ufile.bucket-name}")
+    private String bucketName;
 
+    @Value("${ucloud.ufile.region}")
+    private String region;
+
+    @Value("${ucloud.ufile.proxy-suffix}")
+    private String proxySuffix;
+
+    @Value("${ucloud.ufile.expires-duration}")
+    private Integer expiresDuration;
 
     public String upload(InputStream fileStream, String mimeType, String fileName) {
 
@@ -40,7 +50,7 @@ public class UCloudProvider {
         try {
             // Bucket相关API的授权器
             ObjectAuthorization objectAuthorization = new UfileObjectLocalAuthorization(publicKey, privateKey);
-            ObjectConfig config = new ObjectConfig("cn-bj", "ufileos.com");
+            ObjectConfig config = new ObjectConfig(region, "ufileos.com");
 
             PutObjectResultBean response = UfileClient.object(objectAuthorization, config)
                     .putObject(fileStream, mimeType)
@@ -50,8 +60,9 @@ public class UCloudProvider {
                     .execute();
 
             if (response != null && response.getRetCode() == 0) {
+                //设置图片过期时间为10年
                 String url = UfileClient.object(objectAuthorization, config)
-                        .getDownloadUrlFromPrivateBucket(generatedFileName, bucketName, 24 * 60 * 60)
+                        .getDownloadUrlFromPrivateBucket(generatedFileName, bucketName, expiresDuration)
                         .createUrl();
                 return url;
             } else {
