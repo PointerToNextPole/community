@@ -47,6 +47,7 @@
                     <div class="media-body">
                         <p class="media-heading">
                             <span th:text="${#dates.format(notification.gmtCreate ,'yyyy-MM-dd HH:mm') + ' :  ' + notification.notifierName + ' ' + notification.typeName + ' '}"></span>
+
                             <a th:href="@{'/notification/'+${notification.id}}"
                                th:text="${notification.outerTitle}">
                             </a>

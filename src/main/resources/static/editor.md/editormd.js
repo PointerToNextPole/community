@@ -1,7 +1,7 @@
 /*
  * Editor.md
  *
- * @file        editormd.amd.js 
+ * @file        editormd.js 
  * @version     v1.5.0 
  * @description Open source online markdown editor.
  * @license     MIT License
@@ -22,68 +22,7 @@
 	{
         if (define.amd) // for Require.js
         {
-            var cmModePath  = "codemirror/mode/";
-            var cmAddonPath = "codemirror/addon/";
-
-            var codeMirrorModules = [
-                "jquery", "marked", "prettify",
-                "katex", "raphael", "underscore", "flowchart",  "jqueryflowchart",  "sequenceDiagram",
-
-                "codemirror/lib/codemirror",
-                cmModePath + "css/css",
-                cmModePath + "sass/sass",
-                cmModePath + "shell/shell",
-                cmModePath + "sql/sql",
-                cmModePath + "clike/clike",
-                cmModePath + "php/php",
-                cmModePath + "xml/xml",
-                cmModePath + "markdown/markdown",
-                cmModePath + "javascript/javascript",
-                cmModePath + "htmlmixed/htmlmixed",
-                cmModePath + "gfm/gfm",
-                cmModePath + "http/http",
-                cmModePath + "go/go",
-                cmModePath + "dart/dart",
-                cmModePath + "coffeescript/coffeescript",
-                cmModePath + "nginx/nginx",
-                cmModePath + "python/python",
-                cmModePath + "perl/perl",
-                cmModePath + "lua/lua",
-                cmModePath + "r/r", 
-                cmModePath + "ruby/ruby", 
-                cmModePath + "rst/rst",
-                cmModePath + "smartymixed/smartymixed",
-                cmModePath + "vb/vb",
-                cmModePath + "vbscript/vbscript",
-                cmModePath + "velocity/velocity",
-                cmModePath + "xquery/xquery",
-                cmModePath + "yaml/yaml",
-                cmModePath + "erlang/erlang",
-                cmModePath + "jade/jade",
-
-                cmAddonPath + "edit/trailingspace", 
-                cmAddonPath + "dialog/dialog", 
-                cmAddonPath + "search/searchcursor", 
-                cmAddonPath + "search/search", 
-                cmAddonPath + "scroll/annotatescrollbar", 
-                cmAddonPath + "search/matchesonscrollbar", 
-                cmAddonPath + "display/placeholder", 
-                cmAddonPath + "edit/closetag", 
-                cmAddonPath + "fold/foldcode",
-                cmAddonPath + "fold/foldgutter",
-                cmAddonPath + "fold/indent-fold",
-                cmAddonPath + "fold/brace-fold",
-                cmAddonPath + "fold/xml-fold", 
-                cmAddonPath + "fold/markdown-fold",
-                cmAddonPath + "fold/comment-fold", 
-                cmAddonPath + "mode/overlay", 
-                cmAddonPath + "selection/active-line", 
-                cmAddonPath + "edit/closebrackets", 
-                cmAddonPath + "display/fullscreen",
-                cmAddonPath + "search/match-highlighter"
-            ];
-
-            define(codeMirrorModules, factory);
+            /* Require.js define replace */
         } 
         else 
         {
@@ -97,16 +36,7 @@
     
 }(function() {    
 
-    if (typeof define == "function" && define.amd) {
-       $          = arguments[0];
-       marked     = arguments[1];
-       prettify   = arguments[2];
-       katex      = arguments[3];
-       Raphael    = arguments[4];
-       _          = arguments[5];
-       flowchart  = arguments[6];
-       CodeMirror = arguments[9];
-   }
+    /* Require.js assignment replace */
     
     "use strict";
     
@@ -435,7 +365,7 @@
             
             var _this            = this;
             var classPrefix      = this.classPrefix  = editormd.classPrefix; 
-            var settings         = this.settings     = $.extend(true, editormd.defaults, options);
+            var settings         = this.settings     = $.extend(true, {}, editormd.defaults, options);
             
             id                   = (typeof id === "object") ? settings.id : id;
             
@@ -2035,14 +1965,15 @@
         
         save : function() {
             
-            if (timer === null)
+            var _this            = this;
+            var state            = this.state;
+            var settings         = this.settings;
+
+            if (timer === null && !(!settings.watch && state.preview))
             {
                 return this;
             }
             
-            var _this            = this;
-            var state            = this.state;
-            var settings         = this.settings;
             var cm               = this.cm;            
             var cmValue          = cm.getValue();
             var previewContainer = this.previewContainer;
@@ -3434,7 +3365,7 @@
 
     // Emoji graphics files url path
     editormd.emoji     = {
-        path  : "http://www.emoji-cheat-sheet.com/graphics/emojis/",
+        path  : "https://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/",
         ext   : ".png"
     };
 
