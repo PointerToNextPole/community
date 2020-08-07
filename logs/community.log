@@ -1,3 +1,1377 @@
-2020-08-07 16:56:18.740  WARN 978 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
-2020-08-07 16:57:31.463  WARN 978 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
-2020-08-07 18:27:16.146  INFO 978 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 00:57:29.470  INFO 4829 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 4829 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 00:57:29.481  INFO 4829 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 00:57:30.993  INFO 4829 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 00:57:31.005  INFO 4829 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 00:57:31.006  INFO 4829 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 00:57:31.113  INFO 4829 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 00:57:31.115  INFO 4829 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1552 ms
+2020-08-08 00:57:32.018  INFO 4829 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 00:57:32.256  INFO 4829 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 00:57:32.621  INFO 4829 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 00:57:32.635  INFO 4829 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.98 seconds (JVM running for 7.035)
+2020-08-08 00:57:34.737  INFO 4829 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 00:59:02.393  INFO 4965 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 4965 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 00:59:02.399  INFO 4965 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 00:59:03.958  INFO 4965 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 00:59:03.969  INFO 4965 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 00:59:03.969  INFO 4965 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 00:59:04.051  INFO 4965 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 00:59:04.051  INFO 4965 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1558 ms
+2020-08-08 00:59:04.807  INFO 4965 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 00:59:04.893  INFO 4965 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 00:59:05.264  INFO 4965 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 00:59:05.277  INFO 4965 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.488 seconds (JVM running for 6.438)
+2020-08-08 00:59:16.626  INFO 4965 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-08 00:59:16.626  INFO 4965 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-08 00:59:16.636  INFO 4965 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-08 00:59:16.729  INFO 4965 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-08 00:59:16.998  INFO 4965 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-08 00:59:17.020 DEBUG 4965 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.004 DEBUG 4965 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.004 DEBUG 4965 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.004 DEBUG 4965 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.004 DEBUG 4965 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.004 DEBUG 4965 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.036 ERROR 4965 --- [http-nio-8887-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+### The error may exist in file [/Users/yan/Code/community/target/classes/mapper/UserMapper.xml]
+### The error may involve com.ptr2nextpole.community.mapper.UserMapper.selectByExample
+### The error occurred while executing a query
+### SQL: select                      ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL         from USER                         WHERE (  TOKEN = ? )
+### Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]] with root cause
+
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1895) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:2636) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelect(Parser.java:2440) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parsePrepared(Parser.java:814) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:760) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.prepareCommand(Parser.java:683) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareLocal(Session.java:627) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareCommand(Session.java:565) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java) ~[HikariCP-3.4.5.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy77.prepareStatement(Unknown Source) ~[na:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy62.selectByExample(Unknown Source) ~[na:na]
+	at com.ptr2nextpole.community.interceptor.SessionInterceptor.preHandle(SessionInterceptor.java:35) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-08 00:59:18.036 ERROR 4965 --- [http-nio-8887-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+### The error may exist in file [/Users/yan/Code/community/target/classes/mapper/UserMapper.xml]
+### The error may involve com.ptr2nextpole.community.mapper.UserMapper.selectByExample
+### The error occurred while executing a query
+### SQL: select                      ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL         from USER                         WHERE (  TOKEN = ? )
+### Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]] with root cause
+
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1895) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:2636) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelect(Parser.java:2440) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parsePrepared(Parser.java:814) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:760) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.prepareCommand(Parser.java:683) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareLocal(Session.java:627) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareCommand(Session.java:565) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java) ~[HikariCP-3.4.5.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy77.prepareStatement(Unknown Source) ~[na:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy62.selectByExample(Unknown Source) ~[na:na]
+	at com.ptr2nextpole.community.interceptor.SessionInterceptor.preHandle(SessionInterceptor.java:35) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-08 00:59:18.036 ERROR 4965 --- [http-nio-8887-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+### The error may exist in file [/Users/yan/Code/community/target/classes/mapper/UserMapper.xml]
+### The error may involve com.ptr2nextpole.community.mapper.UserMapper.selectByExample
+### The error occurred while executing a query
+### SQL: select                      ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL         from USER                         WHERE (  TOKEN = ? )
+### Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]] with root cause
+
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1895) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:2636) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelect(Parser.java:2440) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parsePrepared(Parser.java:814) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:760) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.prepareCommand(Parser.java:683) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareLocal(Session.java:627) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareCommand(Session.java:565) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java) ~[HikariCP-3.4.5.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy77.prepareStatement(Unknown Source) ~[na:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy62.selectByExample(Unknown Source) ~[na:na]
+	at com.ptr2nextpole.community.interceptor.SessionInterceptor.preHandle(SessionInterceptor.java:35) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-08 00:59:18.036 ERROR 4965 --- [http-nio-8887-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+### The error may exist in file [/Users/yan/Code/community/target/classes/mapper/UserMapper.xml]
+### The error may involve com.ptr2nextpole.community.mapper.UserMapper.selectByExample
+### The error occurred while executing a query
+### SQL: select                      ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL         from USER                         WHERE (  TOKEN = ? )
+### Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]] with root cause
+
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1895) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:2636) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelect(Parser.java:2440) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parsePrepared(Parser.java:814) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:760) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.prepareCommand(Parser.java:683) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareLocal(Session.java:627) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareCommand(Session.java:565) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java) ~[HikariCP-3.4.5.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy77.prepareStatement(Unknown Source) ~[na:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy62.selectByExample(Unknown Source) ~[na:na]
+	at com.ptr2nextpole.community.interceptor.SessionInterceptor.preHandle(SessionInterceptor.java:35) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-08 00:59:18.036 ERROR 4965 --- [http-nio-8887-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+### The error may exist in file [/Users/yan/Code/community/target/classes/mapper/UserMapper.xml]
+### The error may involve com.ptr2nextpole.community.mapper.UserMapper.selectByExample
+### The error occurred while executing a query
+### SQL: select                      ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL         from USER                         WHERE (  TOKEN = ? )
+### Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+; bad SQL grammar []; nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]] with root cause
+
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found; SQL statement:
+select
+     
+     
+    
+    ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL
+   
+    from USER
+     
+       
+    
+     WHERE (  TOKEN = ? ) [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1895) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2641) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:2788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:2636) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:2469) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseSelect(Parser.java:2440) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parsePrepared(Parser.java:814) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:760) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.prepareCommand(Parser.java:683) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareLocal(Session.java:627) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareCommand(Session.java:565) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337) ~[HikariCP-3.4.5.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java) ~[HikariCP-3.4.5.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy77.prepareStatement(Unknown Source) ~[na:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.1.jar:3.5.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230) ~[mybatis-spring-2.0.1.jar:2.0.1]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) ~[mybatis-3.5.1.jar:3.5.1]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58) ~[mybatis-3.5.1.jar:3.5.1]
+	at com.sun.proxy.$Proxy62.selectByExample(Unknown Source) ~[na:na]
+	at com.ptr2nextpole.community.interceptor.SessionInterceptor.preHandle(SessionInterceptor.java:35) ~[classes/:na]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-08 00:59:18.050 DEBUG 4965 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.050 DEBUG 4965 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.050 DEBUG 4965 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.051 DEBUG 4965 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.050 DEBUG 4965 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:18.575 DEBUG 4965 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 00:59:58.025  INFO 4965 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 00:59:58.026  INFO 4965 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-08 00:59:58.029  INFO 4965 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-08 01:05:16.834  INFO 5178 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 5178 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 01:05:16.837  INFO 5178 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 01:05:18.371  INFO 5178 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 01:05:18.382  INFO 5178 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 01:05:18.382  INFO 5178 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 01:05:18.460  INFO 5178 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 01:05:18.460  INFO 5178 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1545 ms
+2020-08-08 01:05:19.215  INFO 5178 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:05:19.301  INFO 5178 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 01:05:19.662  INFO 5178 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 01:05:19.674  INFO 5178 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.484 seconds (JVM running for 6.954)
+2020-08-08 01:05:33.243  INFO 5178 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-08 01:05:33.243  INFO 5178 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-08 01:05:33.253  INFO 5178 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-08 01:05:33.342  INFO 5178 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-08 01:05:33.607  INFO 5178 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-08 01:05:33.627 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:05:33.647 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:05:33.666 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:05:33.708 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:05:33.709 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:05:33.712 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:05:33.713 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:05:33.715 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:05:33.716 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:05:34.396 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:05:34.396 DEBUG 5178 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:05:34.396 DEBUG 5178 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:05:34.396 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:05:34.396 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:05:34.397 DEBUG 5178 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:05:34.397 DEBUG 5178 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:05:34.397 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:05:34.397 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:05:34.397 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:05:34.398 DEBUG 5178 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:05:34.398 DEBUG 5178 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:05:34.399 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:05:34.399 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:05:34.399 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:05:34.741 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:05:34.742 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:05:34.743 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:05:34.934 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:05:34.934 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:05:34.935 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:05:34.936 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:05:34.936 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:05:34.936 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:05:34.937 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:05:34.937 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:05:34.938 DEBUG 5178 --- [http-nio-8887-exec-8] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:06:48.931 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:06:48.932 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:06:48.932 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:06:48.935 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:06:48.935 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:06:48.937 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:06:48.938 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:06:48.939 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:06:48.939 DEBUG 5178 --- [http-nio-8887-exec-6] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:06:49.425 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:06:49.425 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:06:49.427 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:06:49.428 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:06:49.429 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:06:49.429 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:06:49.430 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:06:49.431 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:06:49.431 DEBUG 5178 --- [http-nio-8887-exec-5] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:07:20.069 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:07:20.069 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:07:20.070 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:07:20.071 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:07:20.072 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:07:20.073 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:07:20.074 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:07:20.075 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:07:20.075 DEBUG 5178 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:07:20.704 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:07:20.704 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:07:20.704 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:07:20.705 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:07:20.705 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:07:20.705 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:07:20.706 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:07:20.706 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:07:20.707 DEBUG 5178 --- [http-nio-8887-exec-7] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:08:37.912 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:08:37.913 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:08:37.914 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:08:37.916 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:08:37.916 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:08:37.917 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:08:37.918 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:08:37.918 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:08:37.918 DEBUG 5178 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:08:38.562 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:08:38.562 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:08:38.563 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:08:38.564 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:08:38.564 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:08:38.564 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:08:38.565 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:08:38.566 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:08:38.566 DEBUG 5178 --- [http-nio-8887-exec-9] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:10:03.899  INFO 5178 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:10:03.900  INFO 5178 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-08 01:10:03.903  INFO 5178 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-08 01:10:09.349  INFO 5255 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 5255 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 01:10:09.352  INFO 5255 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 01:10:11.348  INFO 5255 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 01:10:11.367  INFO 5255 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 01:10:11.367  INFO 5255 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 01:10:11.470  INFO 5255 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 01:10:11.470  INFO 5255 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2036 ms
+2020-08-08 01:10:12.387  INFO 5255 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:10:12.652  INFO 5255 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 01:10:12.962  INFO 5255 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 01:10:12.977  INFO 5255 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 4.291 seconds (JVM running for 7.217)
+2020-08-08 01:10:13.882  INFO 5255 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-08 01:10:13.882  INFO 5255 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-08 01:10:13.890  INFO 5255 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-08 01:10:13.966  INFO 5255 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-08 01:10:14.179  INFO 5255 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-08 01:10:14.191 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:10:14.212 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:10:14.232 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:10:14.270 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:10:14.270 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:10:14.272 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:10:14.274 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:10:14.276 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:10:14.278 DEBUG 5255 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:10:15.316 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:10:15.316 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 8718ea73-dbb3-40c3-b95e-de443b0ec190(String)
+2020-08-08 01:10:15.317 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:10:15.318 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:10:15.318 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:10:15.319 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:10:15.319 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:10:15.319 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:10:15.320 DEBUG 5255 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:13:24.294  INFO 5255 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:13:24.295  INFO 5255 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-08 01:13:24.298  INFO 5255 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-08 01:13:29.911  INFO 5287 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 5287 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 01:13:29.914  INFO 5287 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 01:13:31.682  INFO 5287 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 01:13:31.693  INFO 5287 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 01:13:31.693  INFO 5287 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 01:13:31.768  INFO 5287 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 01:13:31.768  INFO 5287 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1776 ms
+2020-08-08 01:13:32.421  INFO 5287 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:13:32.613  INFO 5287 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 01:13:32.810  INFO 5287 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 01:13:32.822  INFO 5287 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.552 seconds (JVM running for 6.718)
+2020-08-08 01:14:46.697  INFO 5287 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:27:16.756  INFO 5424 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 5424 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 01:27:16.760  INFO 5424 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 01:27:18.338  INFO 5424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 01:27:18.354  INFO 5424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 01:27:18.354  INFO 5424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 01:27:18.448  INFO 5424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 01:27:18.448  INFO 5424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1596 ms
+2020-08-08 01:27:19.166  INFO 5424 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:27:19.351  INFO 5424 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 01:27:19.580  INFO 5424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 01:27:19.591  INFO 5424 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.594 seconds (JVM running for 6.539)
+2020-08-08 01:27:27.886  INFO 5424 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-08 01:27:27.887  INFO 5424 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-08 01:27:27.893  INFO 5424 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-08 01:27:27.984  INFO 5424 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-08 01:27:28.262  INFO 5424 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-08 01:27:28.277 DEBUG 5424 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:27:28.293 DEBUG 5424 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:27:28.312 DEBUG 5424 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:27:28.321 DEBUG 5424 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:27:28.324 DEBUG 5424 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:27:28.325 DEBUG 5424 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:27:29.550 DEBUG 5424 --- [http-nio-8887-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:27:29.550 DEBUG 5424 --- [http-nio-8887-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:27:29.551 DEBUG 5424 --- [http-nio-8887-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:27:29.553 DEBUG 5424 --- [http-nio-8887-exec-8] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:27:29.553 DEBUG 5424 --- [http-nio-8887-exec-8] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:27:29.554 DEBUG 5424 --- [http-nio-8887-exec-8] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:28:53.171  INFO 5424 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:28:53.173  INFO 5424 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-08 01:28:53.177  INFO 5424 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-08 01:28:58.252  INFO 5453 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 5453 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 01:28:58.257  INFO 5453 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 01:28:59.662  INFO 5453 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 01:28:59.682  INFO 5453 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 01:28:59.683  INFO 5453 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 01:28:59.792  INFO 5453 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 01:28:59.792  INFO 5453 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1447 ms
+2020-08-08 01:29:00.530  INFO 5453 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:29:00.721  INFO 5453 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 01:29:00.933  INFO 5453 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 01:29:00.945  INFO 5453 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.33 seconds (JVM running for 5.87)
+2020-08-08 01:29:28.363  INFO 5453 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-08 01:29:28.363  INFO 5453 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-08 01:29:28.370  INFO 5453 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-08 01:29:28.444  INFO 5453 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-08 01:29:28.663  INFO 5453 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-08 01:29:28.677 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:29:28.694 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:29:28.717 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:29:28.725 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:29:28.727 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:29:28.728 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:29:29.718 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:29:29.718 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:29:29.719 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:29:29.720 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:29:29.720 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:29:29.720 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:29:33.751 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( ACCOUNT_ID = ? ) 
+2020-08-08 01:29:33.752 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 32269352(String)
+2020-08-08 01:29:33.752 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 0
+2020-08-08 01:29:33.753 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.community.mapper.UserMapper.insert   : ==>  Preparing: insert into USER (ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL) values (?, ?, ?, ?, ?, ?, ?, ?) 
+2020-08-08 01:29:33.757 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.community.mapper.UserMapper.insert   : ==> Parameters: null, 32269352(String), Yan(String), 9fe0f3c8-212e-4945-a513-2a9916bce402(String), 1596821373753(Long), 1596821373753(Long), null, https://avatars3.githubusercontent.com/u/32269352?v=4(String)
+2020-08-08 01:29:33.766 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.community.mapper.UserMapper.insert   : <==    Updates: 1
+2020-08-08 01:29:33.811 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:33.812 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:33.814 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:33.826 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:33.827 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:33.833 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:33.835 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:29:33.835 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:29:33.835 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:29:33.836 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:29:33.836 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:29:33.837 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:29:34.184 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:34.184 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:34.185 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:34.187 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:34.188 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:34.188 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:34.190 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:29:34.190 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:29:34.190 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:29:34.191 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:29:34.192 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.Q.selectBySearch                 : ==> Parameters: -5(Integer), 5(Integer)
+2020-08-08 01:29:34.192 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.Q.selectBySearch                 : <==      Total: 0
+2020-08-08 01:29:36.668 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:36.668 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:36.669 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:36.671 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:36.672 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:36.673 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:36.790 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:36.790 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:36.790 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:36.791 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:36.791 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:36.791 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:36.793 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:36.793 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:36.793 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:36.795 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:36.796 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:36.796 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:36.796 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:36.797 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:36.797 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:36.797 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:36.798 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:36.798 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.001 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.002 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.002 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.003 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.003 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.003 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.003 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.004 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.004 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.004 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.004 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.005 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.006 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.006 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.007 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.007 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.008 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.008 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.009 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.009 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.009 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.010 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.010 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.010 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.010 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.011 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.011 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.011 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.011 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.011 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.049 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.050 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.051 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.053 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.053 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.054 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.084 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.084 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.085 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.086 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.087 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.088 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.190 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.190 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.191 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.193 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.195 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.196 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.293 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.293 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.294 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.296 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.296 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.296 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.314 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.314 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.316 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.319 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.319 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.319 DEBUG 5453 --- [http-nio-8887-exec-7] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:37.457 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:37.458 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:37.459 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:37.461 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:37.461 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:37.462 DEBUG 5453 --- [http-nio-8887-exec-10] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:47.270 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:47.270 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:47.271 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:47.272 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:47.273 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:47.273 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:47.291 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.QuestionMapper.insertSelective   : ==>  Preparing: insert into QUESTION ( TITLE, GMT_CREATE, GMT_MODIFIED, CREATOR, TAG, DESCRIPTION ) values ( ?, ?, ?, ?, ?, ? ) 
+2020-08-08 01:29:47.295 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.QuestionMapper.insertSelective   : ==> Parameters: hello(String), 1596821387287(Long), 1596821387287(Long), 1(Long), javascript(String), java.io.StringReader@21aa8618(StringReader)
+2020-08-08 01:29:47.298 DEBUG 5453 --- [http-nio-8887-exec-2] c.p.c.m.QuestionMapper.insertSelective   : <==    Updates: 1
+2020-08-08 01:29:47.321 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:47.321 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:47.322 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:47.324 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:47.324 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:47.325 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:47.326 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:29:47.327 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:29:47.328 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:29:47.329 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:29:47.331 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-08-08 01:29:47.335 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : <==      Total: 1
+2020-08-08 01:29:47.336 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-08-08 01:29:47.338 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-08-08 01:29:47.339 DEBUG 5453 --- [http-nio-8887-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-08-08 01:29:47.894 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:47.894 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:47.895 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:47.896 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:47.896 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:47.896 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:47.897 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 01:29:47.897 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 01:29:47.897 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 01:29:47.898 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 01:29:47.898 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-08-08 01:29:47.898 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.Q.selectBySearch                 : <==      Total: 1
+2020-08-08 01:29:47.899 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-08-08 01:29:47.899 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-08-08 01:29:47.900 DEBUG 5453 --- [http-nio-8887-exec-4] c.p.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-08-08 01:29:50.492 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:50.492 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:50.493 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:50.494 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:50.495 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:50.495 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:50.502 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.Q.selectByPrimaryKey             : ==>  Preparing: select ID, TITLE, GMT_CREATE, GMT_MODIFIED, CREATOR, COMMENT_COUNT, VIEW_COUNT, LIKE_COUNT, TAG , DESCRIPTION from QUESTION where ID = ? 
+2020-08-08 01:29:50.502 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.Q.selectByPrimaryKey             : ==> Parameters: 1(Long)
+2020-08-08 01:29:50.503 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.Q.selectByPrimaryKey             : <==      Total: 1
+2020-08-08 01:29:50.504 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-08-08 01:29:50.505 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-08-08 01:29:50.506 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-08-08 01:29:50.506 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.QuestionExtMapper.selectRelated  : ==>  Preparing: select * from QUESTION where id != ? and tag regexp ? 
+2020-08-08 01:29:50.509 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.QuestionExtMapper.selectRelated  : ==> Parameters: 1(Long), javascript(String)
+2020-08-08 01:29:50.510 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.QuestionExtMapper.selectRelated  : <==      Total: 0
+2020-08-08 01:29:50.518 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.CommentMapper.selectByExample    : ==>  Preparing: select ID, PARENT_ID, TYPE, COMMENTATOR, GMT_CREATE, GMT_MODIFIED, LIKE_COUNT, CONTENT, COMMENT_COUNT from COMMENT WHERE ( PARENT_ID = ? and TYPE = ? ) order by gmt_create desc 
+2020-08-08 01:29:50.519 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.CommentMapper.selectByExample    : ==> Parameters: 1(Long), 1(Integer)
+2020-08-08 01:29:50.519 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.m.CommentMapper.selectByExample    : <==      Total: 0
+2020-08-08 01:29:50.520 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.QuestionExtMapper.incView   : ==>  Preparing: update QUESTION set VIEW_COUNT = VIEW_COUNT + ? where id = ? 
+2020-08-08 01:29:50.527 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.QuestionExtMapper.incView   : ==> Parameters: 1(Integer), 1(Long)
+2020-08-08 01:29:50.529 DEBUG 5453 --- [http-nio-8887-exec-3] c.p.c.mapper.QuestionExtMapper.incView   : <==    Updates: 1
+2020-08-08 01:29:50.620 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:50.620 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:50.621 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:50.621 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:50.621 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:50.622 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:50.623 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:50.623 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:50.624 DEBUG 5453 --- [http-nio-8887-exec-5] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:50.625 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:50.625 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:50.625 DEBUG 5453 --- [http-nio-8887-exec-6] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:50.821 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:50.821 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:50.822 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:50.824 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:50.824 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:50.825 DEBUG 5453 --- [http-nio-8887-exec-8] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:50.946 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 01:29:50.947 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 01:29:50.948 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 01:29:50.949 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 01:29:50.949 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 01:29:50.950 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 01:29:50.951 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.Q.selectByPrimaryKey             : ==>  Preparing: select ID, TITLE, GMT_CREATE, GMT_MODIFIED, CREATOR, COMMENT_COUNT, VIEW_COUNT, LIKE_COUNT, TAG , DESCRIPTION from QUESTION where ID = ? 
+2020-08-08 01:29:50.952 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.Q.selectByPrimaryKey             : ==> Parameters: 1(Long)
+2020-08-08 01:29:50.954 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.Q.selectByPrimaryKey             : <==      Total: 1
+2020-08-08 01:29:50.954 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-08-08 01:29:50.955 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-08-08 01:29:50.955 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-08-08 01:29:50.956 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.QuestionExtMapper.selectRelated  : ==>  Preparing: select * from QUESTION where id != ? and tag regexp ? 
+2020-08-08 01:29:50.957 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.QuestionExtMapper.selectRelated  : ==> Parameters: 1(Long), javascript(String)
+2020-08-08 01:29:50.958 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.QuestionExtMapper.selectRelated  : <==      Total: 0
+2020-08-08 01:29:50.959 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.CommentMapper.selectByExample    : ==>  Preparing: select ID, PARENT_ID, TYPE, COMMENTATOR, GMT_CREATE, GMT_MODIFIED, LIKE_COUNT, CONTENT, COMMENT_COUNT from COMMENT WHERE ( PARENT_ID = ? and TYPE = ? ) order by gmt_create desc 
+2020-08-08 01:29:50.960 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.CommentMapper.selectByExample    : ==> Parameters: 1(Long), 1(Integer)
+2020-08-08 01:29:50.961 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.m.CommentMapper.selectByExample    : <==      Total: 0
+2020-08-08 01:29:50.962 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.QuestionExtMapper.incView   : ==>  Preparing: update QUESTION set VIEW_COUNT = VIEW_COUNT + ? where id = ? 
+2020-08-08 01:29:50.962 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.QuestionExtMapper.incView   : ==> Parameters: 1(Integer), 1(Long)
+2020-08-08 01:29:50.963 DEBUG 5453 --- [http-nio-8887-exec-9] c.p.c.mapper.QuestionExtMapper.incView   : <==    Updates: 1
+2020-08-08 01:40:15.989  INFO 5453 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:40:15.990  INFO 5453 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-08 01:40:15.994  INFO 5453 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-08 01:40:21.462  INFO 5826 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 5826 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 01:40:21.467  INFO 5826 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 01:40:22.823  INFO 5826 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 01:40:22.835  INFO 5826 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 01:40:22.835  INFO 5826 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 01:40:22.919  INFO 5826 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 01:40:22.920  INFO 5826 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1360 ms
+2020-08-08 01:40:23.593  INFO 5826 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 01:40:23.809  INFO 5826 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 01:40:24.001  INFO 5826 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 01:40:24.013  INFO 5826 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.179 seconds (JVM running for 6.245)
+2020-08-08 01:47:16.379  INFO 5826 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 02:26:31.095  INFO 6283 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 6283 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 02:26:31.099  INFO 6283 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 02:26:32.912  INFO 6283 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-08 02:26:32.929  INFO 6283 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 02:26:32.930  INFO 6283 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 02:26:33.035  INFO 6283 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 02:26:33.036  INFO 6283 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1836 ms
+2020-08-08 02:26:33.882  INFO 6283 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 02:26:34.142  INFO 6283 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 02:26:34.438  INFO 6283 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-08 02:26:34.452  INFO 6283 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 4.246 seconds (JVM running for 8.175)
+2020-08-08 02:26:46.285  INFO 6283 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-08 02:26:46.285  INFO 6283 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-08 02:26:46.298  INFO 6283 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-08-08 02:26:46.397  INFO 6283 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-08 02:26:46.685  INFO 6283 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-08 02:26:46.700 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:26:46.718 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:26:46.735 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:26:46.769 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:26:46.770 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:26:46.776 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:26:46.808 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 02:26:46.809 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 02:26:46.810 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 02:26:46.812 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 02:26:46.814 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-08-08 02:26:46.821 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.Q.selectBySearch                 : <==      Total: 1
+2020-08-08 02:26:46.823 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-08-08 02:26:46.824 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-08-08 02:26:46.825 DEBUG 6283 --- [http-nio-8887-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-08-08 02:26:48.013 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:26:48.014 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:26:48.015 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:26:48.017 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:26:48.018 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:26:48.018 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:26:48.020 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 02:26:48.020 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 02:26:48.021 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 02:26:48.022 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 02:26:48.022 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-08-08 02:26:48.024 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.Q.selectBySearch                 : <==      Total: 1
+2020-08-08 02:26:48.025 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-08-08 02:26:48.025 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-08-08 02:26:48.026 DEBUG 6283 --- [http-nio-8887-exec-2] c.p.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-08-08 02:27:25.110  INFO 6283 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-08 02:27:25.112  INFO 6283 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-08 02:27:25.115  INFO 6283 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-08 02:27:30.881  INFO 6310 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 6310 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-08 02:27:30.886  INFO 6310 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-08 02:27:32.596  INFO 6310 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-08 02:27:32.608  INFO 6310 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-08 02:27:32.608  INFO 6310 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-08 02:27:32.685  INFO 6310 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-08 02:27:32.685  INFO 6310 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1654 ms
+2020-08-08 02:27:33.360  INFO 6310 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-08 02:27:33.558  INFO 6310 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-08 02:27:33.766  INFO 6310 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-08 02:27:33.781  INFO 6310 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.543 seconds (JVM running for 6.704)
+2020-08-08 02:27:50.591  INFO 6310 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-08 02:27:50.591  INFO 6310 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-08 02:27:50.599  INFO 6310 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-08 02:27:50.671  INFO 6310 --- [http-nio-80-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-08 02:27:50.937  INFO 6310 --- [http-nio-80-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-08 02:27:50.957 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:50.981 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:51.004 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:51.036 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:51.037 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:51.049 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:51.087 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 02:27:51.088 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 02:27:51.089 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 02:27:51.090 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 02:27:51.092 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-08-08 02:27:51.101 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.Q.selectBySearch                 : <==      Total: 1
+2020-08-08 02:27:51.102 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-08-08 02:27:51.104 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-08-08 02:27:51.105 DEBUG 6310 --- [http-nio-80-exec-1] c.p.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-08-08 02:27:51.780 DEBUG 6310 --- [http-nio-80-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:51.780 DEBUG 6310 --- [http-nio-80-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:51.780 DEBUG 6310 --- [http-nio-80-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:51.780 DEBUG 6310 --- [http-nio-80-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:51.780 DEBUG 6310 --- [http-nio-80-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:51.780 DEBUG 6310 --- [http-nio-80-exec-2] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:51.781 DEBUG 6310 --- [http-nio-80-exec-4] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:51.781 DEBUG 6310 --- [http-nio-80-exec-5] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:51.781 DEBUG 6310 --- [http-nio-80-exec-3] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:51.781 DEBUG 6310 --- [http-nio-80-exec-6] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:51.782 DEBUG 6310 --- [http-nio-80-exec-2] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:51.785 DEBUG 6310 --- [http-nio-80-exec-5] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:51.785 DEBUG 6310 --- [http-nio-80-exec-3] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:51.785 DEBUG 6310 --- [http-nio-80-exec-4] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:51.786 DEBUG 6310 --- [http-nio-80-exec-6] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:51.787 DEBUG 6310 --- [http-nio-80-exec-2] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:51.787 DEBUG 6310 --- [http-nio-80-exec-4] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:51.787 DEBUG 6310 --- [http-nio-80-exec-5] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:51.787 DEBUG 6310 --- [http-nio-80-exec-2] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:51.787 DEBUG 6310 --- [http-nio-80-exec-3] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:51.788 DEBUG 6310 --- [http-nio-80-exec-5] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:51.788 DEBUG 6310 --- [http-nio-80-exec-6] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:51.788 DEBUG 6310 --- [http-nio-80-exec-4] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:51.789 DEBUG 6310 --- [http-nio-80-exec-2] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:51.789 DEBUG 6310 --- [http-nio-80-exec-6] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:51.789 DEBUG 6310 --- [http-nio-80-exec-4] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:51.789 DEBUG 6310 --- [http-nio-80-exec-5] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:51.790 DEBUG 6310 --- [http-nio-80-exec-6] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:51.790 DEBUG 6310 --- [http-nio-80-exec-3] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:51.792 DEBUG 6310 --- [http-nio-80-exec-3] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:52.161 DEBUG 6310 --- [http-nio-80-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:52.163 DEBUG 6310 --- [http-nio-80-exec-7] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:52.166 DEBUG 6310 --- [http-nio-80-exec-7] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:52.169 DEBUG 6310 --- [http-nio-80-exec-7] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:52.169 DEBUG 6310 --- [http-nio-80-exec-7] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:52.170 DEBUG 6310 --- [http-nio-80-exec-7] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:52.365 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:52.366 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:52.367 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:52.369 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:52.369 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:52.370 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:52.371 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : ==>  Preparing: select count(*) from QUESTION 
+2020-08-08 02:27:52.372 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : ==> Parameters: 
+2020-08-08 02:27:52.372 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.QuestionExtMapper.countBySearch  : <==      Total: 1
+2020-08-08 02:27:52.374 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.Q.selectBySearch                 : ==>  Preparing: select * from QUESTION order by gmt_create desc limit ?, ? 
+2020-08-08 02:27:52.374 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.Q.selectBySearch                 : ==> Parameters: 0(Integer), 5(Integer)
+2020-08-08 02:27:52.375 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.Q.selectBySearch                 : <==      Total: 1
+2020-08-08 02:27:52.377 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.UserMapper.selectByPrimaryKey    : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER where ID = ? 
+2020-08-08 02:27:52.378 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.UserMapper.selectByPrimaryKey    : ==> Parameters: 1(Long)
+2020-08-08 02:27:52.378 DEBUG 6310 --- [http-nio-80-exec-8] c.p.c.m.UserMapper.selectByPrimaryKey    : <==      Total: 1
+2020-08-08 02:27:52.756 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:52.757 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:52.758 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:52.760 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:52.760 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:52.761 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.m.N.countByExample                 : <==      Total: 1
+2020-08-08 02:27:52.774 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==>  Preparing: select ID, ACCOUNT_ID, NAME, TOKEN, GMT_CREATE, GMT_MODIFIED, BIO, AVATAR_URL from USER WHERE ( TOKEN = ? ) 
+2020-08-08 02:27:52.775 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.mapper.UserMapper.selectByExample  : ==> Parameters: 9fe0f3c8-212e-4945-a513-2a9916bce402(String)
+2020-08-08 02:27:52.775 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.mapper.UserMapper.selectByExample  : <==      Total: 1
+2020-08-08 02:27:52.777 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.m.N.countByExample                 : ==>  Preparing: select count(*) from NOTIFICATION WHERE ( RECEIVER = ? and STATUS = ? ) 
+2020-08-08 02:27:52.778 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.m.N.countByExample                 : ==> Parameters: 1(Long), 0(Integer)
+2020-08-08 02:27:52.779 DEBUG 6310 --- [http-nio-80-exec-9] c.p.c.m.N.countByExample                 : <==      Total: 1

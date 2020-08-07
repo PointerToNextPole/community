@@ -103,7 +103,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>5.2.4</version>
                 <configuration>
-                    <url>jdbc:h2:~/Code/community-db/community</url>
+                    <url>jdbc:h2:~/community</url>
                     <user>sa</user>
                     <password>123</password>
                 </configuration>
