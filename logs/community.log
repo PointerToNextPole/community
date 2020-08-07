@@ -1,9 +1,3 @@
-2020-08-07 16:02:17.848  INFO 978 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
-2020-08-07 16:02:17.862  INFO 978 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-08-07 16:02:17.863  INFO 978 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-2020-08-07 16:02:17.932  INFO 978 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-08-07 16:02:17.932  INFO 978 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1315 ms
-2020-08-07 16:02:18.660  INFO 978 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-08-07 16:02:18.899  INFO 978 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-08-07 16:02:19.193  INFO 978 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
-2020-08-07 16:02:19.212  INFO 978 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.172 seconds (JVM running for 6.02)
+2020-08-07 16:56:18.740  WARN 978 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-07 16:57:31.463  WARN 978 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-07 18:27:16.146  INFO 978 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
