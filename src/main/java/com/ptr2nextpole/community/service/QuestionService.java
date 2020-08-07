@@ -2,6 +2,7 @@ package com.ptr2nextpole.community.service;
 
 import com.ptr2nextpole.community.dto.PaginationDTO;
 import com.ptr2nextpole.community.dto.QuestionDTO;
+import com.ptr2nextpole.community.dto.QuestionQueryDTO;
 import com.ptr2nextpole.community.exception.CustomizeErrorCode;
 import com.ptr2nextpole.community.exception.CustomizeException;
 import com.ptr2nextpole.community.mapper.QuestionExtMapper;
@@ -32,11 +33,13 @@ public class QuestionService {
     private QuestionExtMapper questionExtMapper;
 
     public List<QuestionDTO> selectRelated(QuestionDTO queryDTO) {
+
         if(StringUtils.isBlank(queryDTO.getTag())){
             return new ArrayList<>();
         }
         String[] tags = StringUtils.split(queryDTO.getTag(), ",");
         String regexpTag = Arrays.stream(tags).collect(Collectors.joining("|"));
+
         Question question = new Question();
         question.setId(queryDTO.getId());
         question.setTag(regexpTag);
@@ -50,10 +53,17 @@ public class QuestionService {
         return questionDTOS;
     }
 
-    public PaginationDTO list(Integer page, Integer size) {
+    public PaginationDTO list(String search, Integer page, Integer size) {
+
+        if(StringUtils.isNotBlank(search)){
+            String[] tags = StringUtils.split(search, " ");
+            String regexpTag = Arrays.stream(tags).collect(Collectors.joining("|"));
+        }
 
         PaginationDTO paginationDTO = new PaginationDTO();
-        Integer totalCount = (int)questionMapper.countByExample(new QuestionExample());
+        QuestionQueryDTO questionQueryDTO = new QuestionQueryDTO();
+        questionQueryDTO.setSearch(search);
+        Integer totalCount = (int)questionExtMapper.countBySearch(questionQueryDTO);
 
         Integer totalPage = (int) Math.ceil((double) totalCount / size);
 
@@ -69,8 +79,9 @@ public class QuestionService {
 
         QuestionExample questionExample = new QuestionExample();
         questionExample.setOrderByClause("gmt_create desc");
-        List<Question> questions = questionMapper.selectByExampleWithBLOBsWithRowbounds(
-                questionExample, new RowBounds(offset, size));
+        questionQueryDTO.setSize(size);
+        questionQueryDTO.setPage(offset);
+        List<Question> questions = questionExtMapper.selectBySearch(questionQueryDTO);
 
         //防止description过长
         for (Question question : questions) {
