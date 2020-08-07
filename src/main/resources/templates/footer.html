@@ -11,15 +11,7 @@
 </head>
 <body>
 
-<div th:insert="~{navigation :: nav}"></div>
-
-<div class="jumbotron">
-    <h1>出错啦！！！</h1>
-    <p th:text="${message}">服务太热啦，要不稍等下再来试试～</p>
-    <p><a class="btn btn-primary btn-lg" href="/" role="button">回到主页</a></p>
+<div th:fragment="foot" class="footer">
+    Copyright © 2020 · Yan-community · 服务器赞助 : UCloud · 网站程序: Spring Boot
 </div>
-
-<div th:insert="~{footer :: foot}"></div>
-
 </body>
-</html>
