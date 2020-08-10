@@ -29,3 +29,19 @@
 2020-08-10 11:17:42.489  INFO 12309 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2020-08-10 11:17:42.491  INFO 12309 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-08-10 11:17:42.496  INFO 12309 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 14:49:25.881  INFO 15187 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 15187 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-10 14:49:25.886  INFO 15187 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-10 14:49:27.502  INFO 15187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-10 14:49:27.519  INFO 15187 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-10 14:49:27.520  INFO 15187 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-10 14:49:27.660  INFO 15187 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-10 14:49:27.660  INFO 15187 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1688 ms
+2020-08-10 14:49:28.685  INFO 15187 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 14:49:28.965  INFO 15187 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-10 14:49:29.434  INFO 15187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-10 14:49:29.456  INFO 15187 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 4.203 seconds (JVM running for 7.681)
+2020-08-10 14:49:38.764  INFO 15187 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 14:49:38.765  INFO 15187 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-10 14:49:38.774  INFO 15187 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-10 14:49:38.864  INFO 15187 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 14:49:39.102  INFO 15187 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
