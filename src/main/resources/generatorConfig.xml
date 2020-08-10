@@ -10,7 +10,7 @@
         <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"></plugin>
 
         <jdbcConnection driverClass="org.h2.Driver"
-                        connectionURL="jdbc:h2:~/Code/community-db/community"
+                        connectionURL="jdbc:h2:~/App/community-db/community"
                         userId="sa"
                         password="123">
         </jdbcConnection>
