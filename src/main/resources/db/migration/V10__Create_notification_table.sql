@@ -7,6 +7,6 @@ create table notification
     type int not null,
     gmt_create bigint not null,
     status int default 0 not null,
-    constraint NOTIFICATION_PK
+    constraint notification_pk
         primary key (id)
 );
