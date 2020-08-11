@@ -74,7 +74,7 @@ public class QuestionService {
         }
         paginationDTO.setPagination(totalPage, page);
 
-        //size * (page -1)，另外：防止page < 1的情况
+        //size * (page -1)，另外，这里要防止page < 1的情况
         Integer offset = page < 1 ? 0 : size * (page - 1);
 
         QuestionExample questionExample = new QuestionExample();
