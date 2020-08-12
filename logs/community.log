@@ -25306,3 +25306,1455 @@ java.lang.NoSuchMethodError: com.ptr2nextpole.community.cache.HotTagCache.getTag
 2020-08-12 14:30:13.403  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:30:13 CST 2020
 2020-08-12 14:30:23.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:30:23 CST 2020
 2020-08-12 14:30:23.406  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:30:23 CST 2020
+2020-08-12 14:30:33.403  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:30:33 CST 2020
+2020-08-12 14:30:33.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:30:33 CST 2020
+2020-08-12 14:30:43.406  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:30:43 CST 2020
+2020-08-12 14:30:43.407  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:30:43 CST 2020
+2020-08-12 14:30:53.407  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:30:53 CST 2020
+2020-08-12 14:30:53.409  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:30:53 CST 2020
+2020-08-12 14:31:03.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:31:03 CST 2020
+2020-08-12 14:31:03.406  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:31:03 CST 2020
+2020-08-12 14:31:13.406  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:31:13 CST 2020
+2020-08-12 14:31:13.407  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:31:13 CST 2020
+2020-08-12 14:31:23.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:31:23 CST 2020
+2020-08-12 14:31:23.403  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:31:23 CST 2020
+2020-08-12 14:31:33.403  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:31:33 CST 2020
+2020-08-12 14:31:33.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:31:33 CST 2020
+2020-08-12 14:31:43.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:31:43 CST 2020
+2020-08-12 14:31:43.403  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:31:43 CST 2020
+2020-08-12 14:31:53.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:31:53 CST 2020
+2020-08-12 14:31:53.406  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:31:53 CST 2020
+2020-08-12 14:32:03.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:32:03 CST 2020
+2020-08-12 14:32:03.407  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:32:03 CST 2020
+2020-08-12 14:32:13.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:32:13 CST 2020
+2020-08-12 14:32:13.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:32:13 CST 2020
+2020-08-12 14:32:23.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:32:23 CST 2020
+2020-08-12 14:32:23.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:32:23 CST 2020
+2020-08-12 14:32:33.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:32:33 CST 2020
+2020-08-12 14:32:33.406  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:32:33 CST 2020
+2020-08-12 14:32:43.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:32:43 CST 2020
+2020-08-12 14:32:43.410  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:32:43 CST 2020
+2020-08-12 14:32:53.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:32:53 CST 2020
+2020-08-12 14:32:53.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:32:53 CST 2020
+2020-08-12 14:33:03.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:33:03 CST 2020
+2020-08-12 14:33:03.403  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:33:03 CST 2020
+2020-08-12 14:33:13.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:33:13 CST 2020
+2020-08-12 14:33:13.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:33:13 CST 2020
+2020-08-12 14:33:23.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:33:23 CST 2020
+2020-08-12 14:33:23.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:33:23 CST 2020
+2020-08-12 14:33:33.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:33:33 CST 2020
+2020-08-12 14:33:33.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:33:33 CST 2020
+2020-08-12 14:33:43.403  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:33:43 CST 2020
+2020-08-12 14:33:43.410  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:33:43 CST 2020
+2020-08-12 14:33:53.416  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:33:53.566  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:33:53 CST 2020
+2020-08-12 14:33:53.567  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:33:53 CST 2020
+2020-08-12 14:34:03.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:34:03 CST 2020
+2020-08-12 14:34:03.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:34:03 CST 2020
+2020-08-12 14:34:13.411  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:34:13.414  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:34:13 CST 2020
+2020-08-12 14:34:13.415  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:34:13 CST 2020
+2020-08-12 14:34:23.399  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:34:23 CST 2020
+2020-08-12 14:34:23.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:34:23 CST 2020
+2020-08-12 14:34:33.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:34:33 CST 2020
+2020-08-12 14:34:33.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:34:33 CST 2020
+2020-08-12 14:34:43.400  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:34:43 CST 2020
+2020-08-12 14:34:43.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:34:43 CST 2020
+2020-08-12 14:34:53.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:34:53 CST 2020
+2020-08-12 14:34:53.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:34:53 CST 2020
+2020-08-12 14:35:03.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:35:03 CST 2020
+2020-08-12 14:35:03.399  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:35:03 CST 2020
+2020-08-12 14:35:13.399  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:35:13 CST 2020
+2020-08-12 14:35:13.400  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:35:13 CST 2020
+2020-08-12 14:35:23.402  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:35:23 CST 2020
+2020-08-12 14:35:23.403  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:35:23 CST 2020
+2020-08-12 14:35:33.406  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:35:33 CST 2020
+2020-08-12 14:35:33.407  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:35:33 CST 2020
+2020-08-12 14:35:43.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:35:43 CST 2020
+2020-08-12 14:35:43.400  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:35:43 CST 2020
+2020-08-12 14:35:53.399  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:35:53 CST 2020
+2020-08-12 14:35:53.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:35:53 CST 2020
+2020-08-12 14:36:03.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:36:03 CST 2020
+2020-08-12 14:36:03.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:36:03 CST 2020
+2020-08-12 14:36:13.409  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:36:13.509  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:36:13 CST 2020
+2020-08-12 14:36:13.510  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:36:13 CST 2020
+2020-08-12 14:36:23.399  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:36:23 CST 2020
+2020-08-12 14:36:23.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:36:23 CST 2020
+2020-08-12 14:36:33.400  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:36:33 CST 2020
+2020-08-12 14:36:33.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:36:33 CST 2020
+2020-08-12 14:36:43.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:36:43 CST 2020
+2020-08-12 14:36:43.399  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:36:43 CST 2020
+2020-08-12 14:36:53.399  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:36:53 CST 2020
+2020-08-12 14:36:53.400  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:36:53 CST 2020
+2020-08-12 14:37:03.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:37:03 CST 2020
+2020-08-12 14:37:03.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:37:03 CST 2020
+2020-08-12 14:37:13.411  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:37:13.516  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:37:13 CST 2020
+2020-08-12 14:37:13.517  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:37:13 CST 2020
+2020-08-12 14:37:23.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:37:23 CST 2020
+2020-08-12 14:37:23.401  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:37:23 CST 2020
+2020-08-12 14:37:33.407  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:37:33.507  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:37:33 CST 2020
+2020-08-12 14:37:33.508  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:37:33 CST 2020
+2020-08-12 14:37:43.396  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:37:43 CST 2020
+2020-08-12 14:37:43.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:37:43 CST 2020
+2020-08-12 14:37:53.405  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:37:53.496  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:37:53 CST 2020
+2020-08-12 14:37:53.497  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:37:53 CST 2020
+2020-08-12 14:38:03.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:38:03 CST 2020
+2020-08-12 14:38:03.397  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:38:03 CST 2020
+2020-08-12 14:38:13.403  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:38:13.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:38:13 CST 2020
+2020-08-12 14:38:13.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:38:13 CST 2020
+2020-08-12 14:38:23.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:38:23 CST 2020
+2020-08-12 14:38:23.396  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:38:23 CST 2020
+2020-08-12 14:38:33.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:38:33 CST 2020
+2020-08-12 14:38:33.396  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:38:33 CST 2020
+2020-08-12 14:38:43.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:38:43 CST 2020
+2020-08-12 14:38:43.400  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:38:43 CST 2020
+2020-08-12 14:38:53.397  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:38:53 CST 2020
+2020-08-12 14:38:53.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:38:53 CST 2020
+2020-08-12 14:39:03.397  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:39:03 CST 2020
+2020-08-12 14:39:03.398  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:39:03 CST 2020
+2020-08-12 14:39:13.396  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:39:13 CST 2020
+2020-08-12 14:39:13.397  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:39:13 CST 2020
+2020-08-12 14:39:23.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:39:23 CST 2020
+2020-08-12 14:39:23.396  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:39:23 CST 2020
+2020-08-12 14:39:33.393  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:39:33 CST 2020
+2020-08-12 14:39:33.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:39:33 CST 2020
+2020-08-12 14:39:43.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:39:43 CST 2020
+2020-08-12 14:39:43.397  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:39:43 CST 2020
+2020-08-12 14:39:53.396  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:39:53 CST 2020
+2020-08-12 14:39:53.397  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:39:53 CST 2020
+2020-08-12 14:40:03.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:40:03 CST 2020
+2020-08-12 14:40:03.396  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:40:03 CST 2020
+2020-08-12 14:40:13.406  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:40:13.499  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:40:13 CST 2020
+2020-08-12 14:40:13.500  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:40:13 CST 2020
+2020-08-12 14:40:23.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:40:23 CST 2020
+2020-08-12 14:40:23.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:40:23 CST 2020
+2020-08-12 14:40:33.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:40:33 CST 2020
+2020-08-12 14:40:33.393  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:40:33 CST 2020
+2020-08-12 14:40:43.402  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:40:43.404  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:40:43 CST 2020
+2020-08-12 14:40:43.405  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:40:43 CST 2020
+2020-08-12 14:40:53.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:40:53 CST 2020
+2020-08-12 14:40:53.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:40:53 CST 2020
+2020-08-12 14:41:03.405  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:41:03.511  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:41:03 CST 2020
+2020-08-12 14:41:03.512  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:41:03 CST 2020
+2020-08-12 14:41:13.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:41:13 CST 2020
+2020-08-12 14:41:13.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:41:13 CST 2020
+2020-08-12 14:41:23.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:41:23 CST 2020
+2020-08-12 14:41:23.396  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:41:23 CST 2020
+2020-08-12 14:41:33.393  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:41:33 CST 2020
+2020-08-12 14:41:33.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:41:33 CST 2020
+2020-08-12 14:41:43.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:41:43 CST 2020
+2020-08-12 14:41:43.395  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:41:43 CST 2020
+2020-08-12 14:41:53.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:41:53 CST 2020
+2020-08-12 14:41:53.393  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:41:53 CST 2020
+2020-08-12 14:42:03.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:42:03 CST 2020
+2020-08-12 14:42:03.393  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:42:03 CST 2020
+2020-08-12 14:42:13.389  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:42:13 CST 2020
+2020-08-12 14:42:13.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:42:13 CST 2020
+2020-08-12 14:42:23.393  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:42:23 CST 2020
+2020-08-12 14:42:23.394  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:42:23 CST 2020
+2020-08-12 14:42:33.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:42:33 CST 2020
+2020-08-12 14:42:33.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:42:33 CST 2020
+2020-08-12 14:42:43.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:42:43 CST 2020
+2020-08-12 14:42:43.393  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:42:43 CST 2020
+2020-08-12 14:42:53.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:42:53 CST 2020
+2020-08-12 14:42:53.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:42:53 CST 2020
+2020-08-12 14:43:03.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:43:03 CST 2020
+2020-08-12 14:43:03.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:43:03 CST 2020
+2020-08-12 14:43:13.389  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:43:13 CST 2020
+2020-08-12 14:43:13.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:43:13 CST 2020
+2020-08-12 14:43:23.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:43:23 CST 2020
+2020-08-12 14:43:23.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:43:23 CST 2020
+2020-08-12 14:43:33.389  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:43:33 CST 2020
+2020-08-12 14:43:33.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:43:33 CST 2020
+2020-08-12 14:43:43.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:43:43 CST 2020
+2020-08-12 14:43:43.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:43:43 CST 2020
+2020-08-12 14:43:53.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:43:53 CST 2020
+2020-08-12 14:43:53.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:43:53 CST 2020
+2020-08-12 14:44:03.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:44:03 CST 2020
+2020-08-12 14:44:03.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:44:03 CST 2020
+2020-08-12 14:44:13.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:44:13 CST 2020
+2020-08-12 14:44:13.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:44:13 CST 2020
+2020-08-12 14:44:23.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:44:23 CST 2020
+2020-08-12 14:44:23.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:44:23 CST 2020
+2020-08-12 14:44:33.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:44:33 CST 2020
+2020-08-12 14:44:33.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:44:33 CST 2020
+2020-08-12 14:44:43.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:44:43 CST 2020
+2020-08-12 14:44:43.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:44:43 CST 2020
+2020-08-12 14:44:53.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:44:53 CST 2020
+2020-08-12 14:44:53.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:44:53 CST 2020
+2020-08-12 14:45:03.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:45:03 CST 2020
+2020-08-12 14:45:03.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:45:03 CST 2020
+2020-08-12 14:45:13.389  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:45:13 CST 2020
+2020-08-12 14:45:13.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:45:13 CST 2020
+2020-08-12 14:45:23.385  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:45:23 CST 2020
+2020-08-12 14:45:23.385  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:45:23 CST 2020
+2020-08-12 14:45:33.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:45:33 CST 2020
+2020-08-12 14:45:33.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:45:33 CST 2020
+2020-08-12 14:45:43.385  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:45:43 CST 2020
+2020-08-12 14:45:43.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:45:43 CST 2020
+2020-08-12 14:45:53.389  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:45:53 CST 2020
+2020-08-12 14:45:53.392  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:45:53 CST 2020
+2020-08-12 14:46:03.385  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:46:03 CST 2020
+2020-08-12 14:46:03.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:46:03 CST 2020
+2020-08-12 14:46:13.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:46:13 CST 2020
+2020-08-12 14:46:13.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:46:13 CST 2020
+2020-08-12 14:46:23.389  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:46:23 CST 2020
+2020-08-12 14:46:23.391  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:46:23 CST 2020
+2020-08-12 14:46:33.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:46:33 CST 2020
+2020-08-12 14:46:33.388  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:46:33 CST 2020
+2020-08-12 14:46:43.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:46:43 CST 2020
+2020-08-12 14:46:43.390  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:46:43 CST 2020
+2020-08-12 14:46:53.385  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:46:53 CST 2020
+2020-08-12 14:46:53.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:46:53 CST 2020
+2020-08-12 14:47:03.388  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:47:03 CST 2020
+2020-08-12 14:47:03.389  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:47:03 CST 2020
+2020-08-12 14:47:13.385  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:47:13 CST 2020
+2020-08-12 14:47:13.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:47:13 CST 2020
+2020-08-12 14:47:23.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:47:23 CST 2020
+2020-08-12 14:47:23.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:47:23 CST 2020
+2020-08-12 14:47:33.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:47:33 CST 2020
+2020-08-12 14:47:33.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:47:33 CST 2020
+2020-08-12 14:47:43.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:47:43 CST 2020
+2020-08-12 14:47:43.388  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:47:43 CST 2020
+2020-08-12 14:47:53.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:47:53 CST 2020
+2020-08-12 14:47:53.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:47:53 CST 2020
+2020-08-12 14:48:03.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:48:03 CST 2020
+2020-08-12 14:48:03.388  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:48:03 CST 2020
+2020-08-12 14:48:13.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:48:13 CST 2020
+2020-08-12 14:48:13.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:48:13 CST 2020
+2020-08-12 14:48:23.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:48:23 CST 2020
+2020-08-12 14:48:23.388  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:48:23 CST 2020
+2020-08-12 14:48:33.386  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:48:33 CST 2020
+2020-08-12 14:48:33.387  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:48:33 CST 2020
+2020-08-12 14:48:43.382  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:48:43 CST 2020
+2020-08-12 14:48:43.383  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:48:43 CST 2020
+2020-08-12 14:48:53.384  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:48:53 CST 2020
+2020-08-12 14:48:53.384  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:48:53 CST 2020
+2020-08-12 14:49:03.380  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:49:03 CST 2020
+2020-08-12 14:49:03.382  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:49:03 CST 2020
+2020-08-12 14:49:13.372  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:49:13 CST 2020
+2020-08-12 14:49:13.373  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:49:13 CST 2020
+2020-08-12 14:49:23.368  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:49:23 CST 2020
+2020-08-12 14:49:23.369  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:49:23 CST 2020
+2020-08-12 14:49:33.366  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:49:33 CST 2020
+2020-08-12 14:49:33.367  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:49:33 CST 2020
+2020-08-12 14:49:43.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:49:43 CST 2020
+2020-08-12 14:49:43.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:49:43 CST 2020
+2020-08-12 14:49:53.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:49:53 CST 2020
+2020-08-12 14:49:53.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:49:53 CST 2020
+2020-08-12 14:50:03.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:50:03 CST 2020
+2020-08-12 14:50:03.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:50:03 CST 2020
+2020-08-12 14:50:13.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:50:13 CST 2020
+2020-08-12 14:50:13.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:50:13 CST 2020
+2020-08-12 14:50:23.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:50:23 CST 2020
+2020-08-12 14:50:23.363  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:50:23 CST 2020
+2020-08-12 14:50:33.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:50:33 CST 2020
+2020-08-12 14:50:33.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:50:33 CST 2020
+2020-08-12 14:50:43.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:50:43 CST 2020
+2020-08-12 14:50:43.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:50:43 CST 2020
+2020-08-12 14:50:53.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:50:53 CST 2020
+2020-08-12 14:50:53.363  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:50:53 CST 2020
+2020-08-12 14:51:03.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:51:03 CST 2020
+2020-08-12 14:51:03.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:51:03 CST 2020
+2020-08-12 14:51:13.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:51:13 CST 2020
+2020-08-12 14:51:13.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:51:13 CST 2020
+2020-08-12 14:51:23.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:51:23 CST 2020
+2020-08-12 14:51:23.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:51:23 CST 2020
+2020-08-12 14:51:33.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:51:33 CST 2020
+2020-08-12 14:51:33.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:51:33 CST 2020
+2020-08-12 14:51:43.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:51:43 CST 2020
+2020-08-12 14:51:43.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:51:43 CST 2020
+2020-08-12 14:51:53.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:51:53 CST 2020
+2020-08-12 14:51:53.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:51:53 CST 2020
+2020-08-12 14:52:03.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:52:03 CST 2020
+2020-08-12 14:52:03.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:52:03 CST 2020
+2020-08-12 14:52:13.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:52:13 CST 2020
+2020-08-12 14:52:13.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:52:13 CST 2020
+2020-08-12 14:52:23.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:52:23 CST 2020
+2020-08-12 14:52:23.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:52:23 CST 2020
+2020-08-12 14:52:33.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:52:33 CST 2020
+2020-08-12 14:52:33.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:52:33 CST 2020
+2020-08-12 14:52:43.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:52:43 CST 2020
+2020-08-12 14:52:43.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:52:43 CST 2020
+2020-08-12 14:52:53.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:52:53 CST 2020
+2020-08-12 14:52:53.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:52:53 CST 2020
+2020-08-12 14:53:03.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:53:03 CST 2020
+2020-08-12 14:53:03.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:53:03 CST 2020
+2020-08-12 14:53:13.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:53:13 CST 2020
+2020-08-12 14:53:13.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:53:13 CST 2020
+2020-08-12 14:53:23.361  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:53:23 CST 2020
+2020-08-12 14:53:23.364  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:53:23 CST 2020
+2020-08-12 14:53:33.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:53:33 CST 2020
+2020-08-12 14:53:33.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:53:33 CST 2020
+2020-08-12 14:53:43.371  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:53:43.372  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:53:43 CST 2020
+2020-08-12 14:53:43.373  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:53:43 CST 2020
+2020-08-12 14:53:53.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:53:53 CST 2020
+2020-08-12 14:53:53.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:53:53 CST 2020
+2020-08-12 14:54:03.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:54:03 CST 2020
+2020-08-12 14:54:03.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:54:03 CST 2020
+2020-08-12 14:54:13.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:54:13 CST 2020
+2020-08-12 14:54:13.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:54:13 CST 2020
+2020-08-12 14:54:23.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:54:23 CST 2020
+2020-08-12 14:54:23.362  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:54:23 CST 2020
+2020-08-12 14:54:33.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:54:33 CST 2020
+2020-08-12 14:54:33.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:54:33 CST 2020
+2020-08-12 14:54:43.364  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 14:54:43.366  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:54:43 CST 2020
+2020-08-12 14:54:43.367  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:54:43 CST 2020
+2020-08-12 14:54:53.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:54:53 CST 2020
+2020-08-12 14:54:53.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:54:53 CST 2020
+2020-08-12 14:55:03.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:55:03 CST 2020
+2020-08-12 14:55:03.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:55:03 CST 2020
+2020-08-12 14:55:13.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:55:13 CST 2020
+2020-08-12 14:55:13.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:55:13 CST 2020
+2020-08-12 14:55:23.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:55:23 CST 2020
+2020-08-12 14:55:23.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:55:23 CST 2020
+2020-08-12 14:55:33.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:55:33 CST 2020
+2020-08-12 14:55:33.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:55:33 CST 2020
+2020-08-12 14:55:43.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:55:43 CST 2020
+2020-08-12 14:55:43.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:55:43 CST 2020
+2020-08-12 14:55:53.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:55:53 CST 2020
+2020-08-12 14:55:53.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:55:53 CST 2020
+2020-08-12 14:56:03.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:56:03 CST 2020
+2020-08-12 14:56:03.363  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:56:03 CST 2020
+2020-08-12 14:56:13.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:56:13 CST 2020
+2020-08-12 14:56:13.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:56:13 CST 2020
+2020-08-12 14:56:23.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:56:23 CST 2020
+2020-08-12 14:56:23.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:56:23 CST 2020
+2020-08-12 14:56:33.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:56:33 CST 2020
+2020-08-12 14:56:33.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:56:33 CST 2020
+2020-08-12 14:56:43.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:56:43 CST 2020
+2020-08-12 14:56:43.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:56:43 CST 2020
+2020-08-12 14:56:53.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:56:53 CST 2020
+2020-08-12 14:56:53.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:56:53 CST 2020
+2020-08-12 14:57:03.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:57:03 CST 2020
+2020-08-12 14:57:03.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:57:03 CST 2020
+2020-08-12 14:57:13.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:57:13 CST 2020
+2020-08-12 14:57:13.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:57:13 CST 2020
+2020-08-12 14:57:23.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:57:23 CST 2020
+2020-08-12 14:57:23.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:57:23 CST 2020
+2020-08-12 14:57:33.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:57:33 CST 2020
+2020-08-12 14:57:33.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:57:33 CST 2020
+2020-08-12 14:57:43.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:57:43 CST 2020
+2020-08-12 14:57:43.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:57:43 CST 2020
+2020-08-12 14:57:53.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:57:53 CST 2020
+2020-08-12 14:57:53.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:57:53 CST 2020
+2020-08-12 14:58:03.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:58:03 CST 2020
+2020-08-12 14:58:03.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:58:03 CST 2020
+2020-08-12 14:58:13.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:58:13 CST 2020
+2020-08-12 14:58:13.357  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:58:13 CST 2020
+2020-08-12 14:58:23.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:58:23 CST 2020
+2020-08-12 14:58:23.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:58:23 CST 2020
+2020-08-12 14:58:33.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:58:33 CST 2020
+2020-08-12 14:58:33.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:58:33 CST 2020
+2020-08-12 14:58:43.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:58:43 CST 2020
+2020-08-12 14:58:43.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:58:43 CST 2020
+2020-08-12 14:58:53.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:58:53 CST 2020
+2020-08-12 14:58:53.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:58:53 CST 2020
+2020-08-12 14:59:03.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:59:03 CST 2020
+2020-08-12 14:59:03.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:59:03 CST 2020
+2020-08-12 14:59:13.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:59:13 CST 2020
+2020-08-12 14:59:13.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:59:13 CST 2020
+2020-08-12 14:59:23.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:59:23 CST 2020
+2020-08-12 14:59:23.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:59:23 CST 2020
+2020-08-12 14:59:33.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:59:33 CST 2020
+2020-08-12 14:59:33.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:59:33 CST 2020
+2020-08-12 14:59:43.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:59:43 CST 2020
+2020-08-12 14:59:43.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:59:43 CST 2020
+2020-08-12 14:59:53.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 14:59:53 CST 2020
+2020-08-12 14:59:53.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 14:59:53 CST 2020
+2020-08-12 15:00:03.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:00:03 CST 2020
+2020-08-12 15:00:03.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:00:03 CST 2020
+2020-08-12 15:00:13.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:00:13 CST 2020
+2020-08-12 15:00:13.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:00:13 CST 2020
+2020-08-12 15:00:23.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:00:23 CST 2020
+2020-08-12 15:00:23.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:00:23 CST 2020
+2020-08-12 15:00:33.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:00:33 CST 2020
+2020-08-12 15:00:33.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:00:33 CST 2020
+2020-08-12 15:00:43.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:00:43 CST 2020
+2020-08-12 15:00:43.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:00:43 CST 2020
+2020-08-12 15:00:53.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:00:53 CST 2020
+2020-08-12 15:00:53.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:00:53 CST 2020
+2020-08-12 15:01:03.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:01:03 CST 2020
+2020-08-12 15:01:03.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:01:03 CST 2020
+2020-08-12 15:01:13.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:01:13 CST 2020
+2020-08-12 15:01:13.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:01:13 CST 2020
+2020-08-12 15:01:23.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:01:23 CST 2020
+2020-08-12 15:01:23.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:01:23 CST 2020
+2020-08-12 15:01:33.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:01:33 CST 2020
+2020-08-12 15:01:33.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:01:33 CST 2020
+2020-08-12 15:01:43.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:01:43 CST 2020
+2020-08-12 15:01:43.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:01:43 CST 2020
+2020-08-12 15:01:53.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:01:53 CST 2020
+2020-08-12 15:01:53.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:01:53 CST 2020
+2020-08-12 15:02:03.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:02:03 CST 2020
+2020-08-12 15:02:03.354  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:02:03 CST 2020
+2020-08-12 15:02:13.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:02:13 CST 2020
+2020-08-12 15:02:13.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:02:13 CST 2020
+2020-08-12 15:02:23.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:02:23 CST 2020
+2020-08-12 15:02:23.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:02:23 CST 2020
+2020-08-12 15:02:33.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:02:33 CST 2020
+2020-08-12 15:02:33.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:02:33 CST 2020
+2020-08-12 15:02:43.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:02:43 CST 2020
+2020-08-12 15:02:43.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:02:43 CST 2020
+2020-08-12 15:02:53.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:02:53 CST 2020
+2020-08-12 15:02:53.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:02:53 CST 2020
+2020-08-12 15:03:03.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:03:03 CST 2020
+2020-08-12 15:03:03.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:03:03 CST 2020
+2020-08-12 15:03:13.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:03:13 CST 2020
+2020-08-12 15:03:13.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:03:13 CST 2020
+2020-08-12 15:03:23.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:03:23 CST 2020
+2020-08-12 15:03:23.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:03:23 CST 2020
+2020-08-12 15:03:33.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:03:33 CST 2020
+2020-08-12 15:03:33.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:03:33 CST 2020
+2020-08-12 15:03:43.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:03:43 CST 2020
+2020-08-12 15:03:43.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:03:43 CST 2020
+2020-08-12 15:03:53.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:03:53 CST 2020
+2020-08-12 15:03:53.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:03:53 CST 2020
+2020-08-12 15:04:03.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:04:03 CST 2020
+2020-08-12 15:04:03.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:04:03 CST 2020
+2020-08-12 15:04:13.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:04:13 CST 2020
+2020-08-12 15:04:13.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:04:13 CST 2020
+2020-08-12 15:04:23.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:04:23 CST 2020
+2020-08-12 15:04:23.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:04:23 CST 2020
+2020-08-12 15:04:33.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:04:33 CST 2020
+2020-08-12 15:04:33.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:04:33 CST 2020
+2020-08-12 15:04:43.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:04:43 CST 2020
+2020-08-12 15:04:43.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:04:43 CST 2020
+2020-08-12 15:04:53.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:04:53 CST 2020
+2020-08-12 15:04:53.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:04:53 CST 2020
+2020-08-12 15:05:03.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:05:03 CST 2020
+2020-08-12 15:05:03.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:05:03 CST 2020
+2020-08-12 15:05:13.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:05:13 CST 2020
+2020-08-12 15:05:13.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:05:13 CST 2020
+2020-08-12 15:05:23.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:05:23 CST 2020
+2020-08-12 15:05:23.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:05:23 CST 2020
+2020-08-12 15:05:33.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:05:33 CST 2020
+2020-08-12 15:05:33.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:05:33 CST 2020
+2020-08-12 15:05:43.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:05:43 CST 2020
+2020-08-12 15:05:43.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:05:43 CST 2020
+2020-08-12 15:05:53.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:05:53 CST 2020
+2020-08-12 15:05:53.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:05:53 CST 2020
+2020-08-12 15:06:03.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:06:03 CST 2020
+2020-08-12 15:06:03.350  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:06:03 CST 2020
+2020-08-12 15:06:13.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:06:13 CST 2020
+2020-08-12 15:06:13.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:06:13 CST 2020
+2020-08-12 15:06:23.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:06:23 CST 2020
+2020-08-12 15:06:23.351  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:06:23 CST 2020
+2020-08-12 15:06:33.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:06:33 CST 2020
+2020-08-12 15:06:33.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:06:33 CST 2020
+2020-08-12 15:06:43.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:06:43 CST 2020
+2020-08-12 15:06:43.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:06:43 CST 2020
+2020-08-12 15:06:53.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:06:53 CST 2020
+2020-08-12 15:06:53.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:06:53 CST 2020
+2020-08-12 15:07:03.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:07:03 CST 2020
+2020-08-12 15:07:03.349  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:07:03 CST 2020
+2020-08-12 15:07:13.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:07:13 CST 2020
+2020-08-12 15:07:13.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:07:13 CST 2020
+2020-08-12 15:07:23.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:07:23 CST 2020
+2020-08-12 15:07:23.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:07:23 CST 2020
+2020-08-12 15:07:33.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:07:33 CST 2020
+2020-08-12 15:07:33.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:07:33 CST 2020
+2020-08-12 15:07:43.360  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:07:43.439  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:07:43 CST 2020
+2020-08-12 15:07:43.440  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:07:43 CST 2020
+2020-08-12 15:07:53.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:07:53 CST 2020
+2020-08-12 15:07:53.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:07:53 CST 2020
+2020-08-12 15:08:03.354  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:08:03.355  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:08:03 CST 2020
+2020-08-12 15:08:03.356  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:08:03 CST 2020
+2020-08-12 15:08:13.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:08:13 CST 2020
+2020-08-12 15:08:13.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:08:13 CST 2020
+2020-08-12 15:08:23.356  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:08:23.439  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:08:23 CST 2020
+2020-08-12 15:08:23.440  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:08:23 CST 2020
+2020-08-12 15:08:33.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:08:33 CST 2020
+2020-08-12 15:08:33.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:08:33 CST 2020
+2020-08-12 15:08:43.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:08:43 CST 2020
+2020-08-12 15:08:43.348  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:08:43 CST 2020
+2020-08-12 15:08:53.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:08:53 CST 2020
+2020-08-12 15:08:53.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:08:53 CST 2020
+2020-08-12 15:09:03.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:09:03 CST 2020
+2020-08-12 15:09:03.347  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:09:03 CST 2020
+2020-08-12 15:09:13.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:09:13 CST 2020
+2020-08-12 15:09:13.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:09:13 CST 2020
+2020-08-12 15:09:23.356  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:09:23.358  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:09:23 CST 2020
+2020-08-12 15:09:23.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:09:23 CST 2020
+2020-08-12 15:09:33.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:09:33 CST 2020
+2020-08-12 15:09:33.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:09:33 CST 2020
+2020-08-12 15:09:43.367  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:09:43.502  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:09:43 CST 2020
+2020-08-12 15:09:43.505  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:09:43 CST 2020
+2020-08-12 15:09:53.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:09:53 CST 2020
+2020-08-12 15:09:53.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:09:53 CST 2020
+2020-08-12 15:10:03.353  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:10:03.465  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:10:03 CST 2020
+2020-08-12 15:10:03.467  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:10:03 CST 2020
+2020-08-12 15:10:13.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:10:13 CST 2020
+2020-08-12 15:10:13.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:10:13 CST 2020
+2020-08-12 15:10:23.353  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:10:23.454  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:10:23 CST 2020
+2020-08-12 15:10:23.455  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:10:23 CST 2020
+2020-08-12 15:10:33.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:10:33 CST 2020
+2020-08-12 15:10:33.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:10:33 CST 2020
+2020-08-12 15:10:43.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:10:43 CST 2020
+2020-08-12 15:10:43.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:10:43 CST 2020
+2020-08-12 15:10:53.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:10:53 CST 2020
+2020-08-12 15:10:53.346  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:10:53 CST 2020
+2020-08-12 15:11:03.354  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:11:03.429  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:11:03 CST 2020
+2020-08-12 15:11:03.430  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:11:03 CST 2020
+2020-08-12 15:11:13.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:11:13 CST 2020
+2020-08-12 15:11:13.345  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:11:13 CST 2020
+2020-08-12 15:11:23.355  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:11:23.452  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:11:23 CST 2020
+2020-08-12 15:11:23.452  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:11:23 CST 2020
+2020-08-12 15:11:33.342  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:11:33 CST 2020
+2020-08-12 15:11:33.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:11:33 CST 2020
+2020-08-12 15:11:43.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:11:43 CST 2020
+2020-08-12 15:11:43.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:11:43 CST 2020
+2020-08-12 15:11:53.342  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:11:53 CST 2020
+2020-08-12 15:11:53.344  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:11:53 CST 2020
+2020-08-12 15:12:03.357  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:12:03.499  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:12:03 CST 2020
+2020-08-12 15:12:03.502  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:12:03 CST 2020
+2020-08-12 15:12:13.342  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:12:13 CST 2020
+2020-08-12 15:12:13.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:12:13 CST 2020
+2020-08-12 15:12:23.358  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:12:23.549  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:12:23 CST 2020
+2020-08-12 15:12:23.550  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:12:23 CST 2020
+2020-08-12 15:12:33.342  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:12:33 CST 2020
+2020-08-12 15:12:33.342  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:12:33 CST 2020
+2020-08-12 15:12:43.374  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:12:43.488  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:12:43 CST 2020
+2020-08-12 15:12:43.489  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:12:43 CST 2020
+2020-08-12 15:12:53.342  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:12:53 CST 2020
+2020-08-12 15:12:53.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:12:53 CST 2020
+2020-08-12 15:13:03.351  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:13:03.352  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:13:03 CST 2020
+2020-08-12 15:13:03.353  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:13:03 CST 2020
+2020-08-12 15:13:13.341  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:13:13 CST 2020
+2020-08-12 15:13:13.342  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:13:13 CST 2020
+2020-08-12 15:13:23.342  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:13:23 CST 2020
+2020-08-12 15:13:23.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:13:23 CST 2020
+2020-08-12 15:13:33.341  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:13:33 CST 2020
+2020-08-12 15:13:33.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:13:33 CST 2020
+2020-08-12 15:13:43.352  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:13:43.430  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:13:43 CST 2020
+2020-08-12 15:13:43.431  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:13:43 CST 2020
+2020-08-12 15:13:53.341  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:13:53 CST 2020
+2020-08-12 15:13:53.341  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:13:53 CST 2020
+2020-08-12 15:14:03.355  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:14:03.359  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:14:03 CST 2020
+2020-08-12 15:14:03.360  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:14:03 CST 2020
+2020-08-12 15:14:13.341  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:14:13 CST 2020
+2020-08-12 15:14:13.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:14:13 CST 2020
+2020-08-12 15:14:23.351  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:14:23.433  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:14:23 CST 2020
+2020-08-12 15:14:23.434  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:14:23 CST 2020
+2020-08-12 15:14:33.340  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:14:33 CST 2020
+2020-08-12 15:14:33.343  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:14:33 CST 2020
+2020-08-12 15:14:43.350  WARN 38712 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:14:43.479  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:14:43 CST 2020
+2020-08-12 15:14:43.481  INFO 38712 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:14:43 CST 2020
+2020-08-12 15:14:49.108  INFO 38712 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-12 15:14:49.108  INFO 38712 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:14:49.109  INFO 38712 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 15:14:49.112  INFO 38712 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 15:14:56.084  INFO 40739 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 40739 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-12 15:14:56.087  INFO 40739 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-12 15:14:57.536  INFO 40739 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-12 15:14:57.552  INFO 40739 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 15:14:57.552  INFO 40739 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-12 15:14:57.631  INFO 40739 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 15:14:57.631  INFO 40739 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1444 ms
+2020-08-12 15:14:58.467  INFO 40739 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:14:58.684  INFO 40739 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 15:14:58.891  INFO 40739 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-12 15:14:58.956  INFO 40739 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-12 15:14:58.968  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:14:58 CST 2020
+2020-08-12 15:14:58.974  INFO 40739 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.551 seconds (JVM running for 6.579)
+2020-08-12 15:14:59.015  INFO 40739 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 15:14:59.242  INFO 40739 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 15:14:59.283  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:14:59 CST 2020
+2020-08-12 15:15:03.724  INFO 40739 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 15:15:03.725  INFO 40739 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 15:15:03.733  INFO 40739 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-12 15:15:08.972  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:15:08 CST 2020
+2020-08-12 15:15:08.973  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:15:08 CST 2020
+2020-08-12 15:15:18.973  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:15:18 CST 2020
+2020-08-12 15:15:18.975  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:15:18 CST 2020
+2020-08-12 15:15:28.972  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:15:28 CST 2020
+2020-08-12 15:15:28.973  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:15:28 CST 2020
+2020-08-12 15:15:38.973  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:15:38 CST 2020
+2020-08-12 15:15:38.974  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:15:38 CST 2020
+2020-08-12 15:15:48.971  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:15:48 CST 2020
+2020-08-12 15:15:48.972  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:15:48 CST 2020
+2020-08-12 15:15:58.973  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:15:58 CST 2020
+2020-08-12 15:15:58.974  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:15:58 CST 2020
+2020-08-12 15:16:08.971  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:16:08 CST 2020
+2020-08-12 15:16:08.972  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:16:08 CST 2020
+2020-08-12 15:16:18.953  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:16:18 CST 2020
+2020-08-12 15:16:18.955  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:16:18 CST 2020
+2020-08-12 15:16:28.938  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:16:28 CST 2020
+2020-08-12 15:16:28.939  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:16:28 CST 2020
+2020-08-12 15:16:38.931  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:16:38 CST 2020
+2020-08-12 15:16:38.933  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:16:38 CST 2020
+2020-08-12 15:16:48.926  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:16:48 CST 2020
+2020-08-12 15:16:48.928  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:16:48 CST 2020
+2020-08-12 15:16:58.925  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:16:58 CST 2020
+2020-08-12 15:16:58.928  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:16:58 CST 2020
+2020-08-12 15:17:08.924  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:17:08 CST 2020
+2020-08-12 15:17:08.926  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:17:08 CST 2020
+2020-08-12 15:17:18.923  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:17:18 CST 2020
+2020-08-12 15:17:18.924  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:17:18 CST 2020
+2020-08-12 15:17:28.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:17:28 CST 2020
+2020-08-12 15:17:28.924  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:17:28 CST 2020
+2020-08-12 15:17:38.923  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:17:38 CST 2020
+2020-08-12 15:17:38.924  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:17:38 CST 2020
+2020-08-12 15:17:48.921  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:17:48 CST 2020
+2020-08-12 15:17:48.923  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:17:48 CST 2020
+2020-08-12 15:17:58.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:17:58 CST 2020
+2020-08-12 15:17:58.924  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:17:58 CST 2020
+2020-08-12 15:18:08.921  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:18:08 CST 2020
+2020-08-12 15:18:08.923  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:18:08 CST 2020
+2020-08-12 15:18:18.921  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:18:18 CST 2020
+2020-08-12 15:18:18.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:18:18 CST 2020
+2020-08-12 15:18:28.920  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:18:28 CST 2020
+2020-08-12 15:18:28.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:18:28 CST 2020
+2020-08-12 15:18:38.920  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:18:38 CST 2020
+2020-08-12 15:18:38.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:18:38 CST 2020
+2020-08-12 15:18:48.921  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:18:48 CST 2020
+2020-08-12 15:18:48.923  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:18:48 CST 2020
+2020-08-12 15:18:58.920  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:18:58 CST 2020
+2020-08-12 15:18:58.921  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:18:58 CST 2020
+2020-08-12 15:19:08.921  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:19:08 CST 2020
+2020-08-12 15:19:08.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:19:08 CST 2020
+2020-08-12 15:19:18.920  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:19:18 CST 2020
+2020-08-12 15:19:18.931  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:19:18 CST 2020
+2020-08-12 15:19:28.954  WARN 40739 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:19:29.309  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:19:29 CST 2020
+2020-08-12 15:19:29.312  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:19:29 CST 2020
+2020-08-12 15:19:38.919  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:19:38 CST 2020
+2020-08-12 15:19:38.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:19:38 CST 2020
+2020-08-12 15:19:48.920  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:19:48 CST 2020
+2020-08-12 15:19:48.924  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:19:48 CST 2020
+2020-08-12 15:19:58.919  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:19:58 CST 2020
+2020-08-12 15:19:58.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:19:58 CST 2020
+2020-08-12 15:20:08.920  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:20:08 CST 2020
+2020-08-12 15:20:08.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:20:08 CST 2020
+2020-08-12 15:20:18.919  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:20:18 CST 2020
+2020-08-12 15:20:18.921  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:20:18 CST 2020
+2020-08-12 15:20:28.920  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:20:28 CST 2020
+2020-08-12 15:20:28.922  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:20:28 CST 2020
+2020-08-12 15:20:38.918  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:20:38 CST 2020
+2020-08-12 15:20:38.920  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:20:38 CST 2020
+2020-08-12 15:20:48.954  WARN 40739 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:20:49.091  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:20:49 CST 2020
+2020-08-12 15:20:49.095  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:20:49 CST 2020
+2020-08-12 15:20:49.095  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:20:49 CST 2020
+2020-08-12 15:20:49.097  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:20:49 CST 2020
+2020-08-12 15:20:59.086  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:20:59 CST 2020
+2020-08-12 15:20:59.090  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:20:59 CST 2020
+2020-08-12 15:21:09.096  WARN 40739 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:21:09.192  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:21:09 CST 2020
+2020-08-12 15:21:09.193  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:21:09 CST 2020
+2020-08-12 15:21:09.194  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:21:09 CST 2020
+2020-08-12 15:21:09.195  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:21:09 CST 2020
+2020-08-12 15:21:19.190  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:21:19 CST 2020
+2020-08-12 15:21:19.193  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:21:19 CST 2020
+2020-08-12 15:21:29.199  WARN 40739 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:21:29.202  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:21:29 CST 2020
+2020-08-12 15:21:29.203  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:21:29 CST 2020
+2020-08-12 15:21:39.189  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:21:39 CST 2020
+2020-08-12 15:21:39.191  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:21:39 CST 2020
+2020-08-12 15:21:49.191  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:21:49 CST 2020
+2020-08-12 15:21:49.197  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:21:49 CST 2020
+2020-08-12 15:21:59.189  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:21:59 CST 2020
+2020-08-12 15:21:59.191  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:21:59 CST 2020
+2020-08-12 15:22:09.203  WARN 40739 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:22:09.326  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:22:09 CST 2020
+2020-08-12 15:22:09.358 ERROR 40739 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:22:09.359  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:22:09 CST 2020
+2020-08-12 15:22:09.362 ERROR 40739 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:22:19.324  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:22:19 CST 2020
+2020-08-12 15:22:19.327 ERROR 40739 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:22:29.324  INFO 40739 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:22:29 CST 2020
+2020-08-12 15:22:29.326 ERROR 40739 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:22:38.515  INFO 40739 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-12 15:22:38.517  INFO 40739 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:22:38.518  INFO 40739 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 15:22:38.522  INFO 40739 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 15:22:46.031  INFO 40867 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 40867 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-12 15:22:46.036  INFO 40867 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-12 15:22:47.757  INFO 40867 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-12 15:22:47.770  INFO 40867 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 15:22:47.771  INFO 40867 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-12 15:22:47.854  INFO 40867 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 15:22:47.855  INFO 40867 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1726 ms
+2020-08-12 15:22:48.599  INFO 40867 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:22:48.690  INFO 40867 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 15:22:49.049  INFO 40867 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-12 15:22:49.123  INFO 40867 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-12 15:22:49.135  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:22:49 CST 2020
+2020-08-12 15:22:49.141  INFO 40867 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.958 seconds (JVM running for 6.772)
+2020-08-12 15:22:49.189  INFO 40867 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 15:22:49.403  INFO 40867 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 15:22:49.451 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:22:59.142  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:22:59 CST 2020
+2020-08-12 15:22:59.145 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:23:09.136  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:23:09 CST 2020
+2020-08-12 15:23:09.138 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:23:19.137  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:23:19 CST 2020
+2020-08-12 15:23:19.139 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:23:29.136  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:23:29 CST 2020
+2020-08-12 15:23:29.139 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:23:39.140  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:23:39 CST 2020
+2020-08-12 15:23:39.144 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:23:49.136  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:23:49 CST 2020
+2020-08-12 15:23:49.138 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:23:59.136  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:23:59 CST 2020
+2020-08-12 15:23:59.138 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:24:09.135  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:24:09 CST 2020
+2020-08-12 15:24:09.137 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:24:19.139  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:24:19 CST 2020
+2020-08-12 15:24:19.141 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:24:29.137  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:24:29 CST 2020
+2020-08-12 15:24:29.140 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:24:39.136  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:24:39 CST 2020
+2020-08-12 15:24:39.139 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:24:49.137  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:24:49 CST 2020
+2020-08-12 15:24:49.139 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:24:59.139  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:24:59 CST 2020
+2020-08-12 15:24:59.141 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:25:09.136  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:25:09 CST 2020
+2020-08-12 15:25:09.139 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:25:19.138  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:25:19 CST 2020
+2020-08-12 15:25:19.141 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:25:29.138  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:25:29 CST 2020
+2020-08-12 15:25:29.140 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:25:39.137  INFO 40867 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:25:39 CST 2020
+2020-08-12 15:25:39.140 ERROR 40867 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:25:41.060  INFO 40867 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-12 15:25:41.062  INFO 40867 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:25:41.063  INFO 40867 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 15:25:41.065  INFO 40867 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 15:25:46.175  INFO 40944 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 40944 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-12 15:25:46.178  INFO 40944 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-12 15:25:47.831  INFO 40944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-12 15:25:47.843  INFO 40944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 15:25:47.844  INFO 40944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-12 15:25:47.923  INFO 40944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 15:25:47.924  INFO 40944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1628 ms
+2020-08-12 15:25:48.583  INFO 40944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:25:48.779  INFO 40944 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 15:25:48.941  INFO 40944 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-12 15:25:49.000  INFO 40944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-12 15:25:49.010  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:25:49 CST 2020
+2020-08-12 15:25:49.016  INFO 40944 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.512 seconds (JVM running for 6.105)
+2020-08-12 15:25:49.055  INFO 40944 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 15:25:49.249  INFO 40944 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 15:25:49.292 ERROR 40944 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:25:59.014  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:25:59 CST 2020
+2020-08-12 15:25:59.017 ERROR 40944 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:26:09.013  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:26:09 CST 2020
+2020-08-12 15:26:09.017 ERROR 40944 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:26:19.012  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:26:19 CST 2020
+2020-08-12 15:26:19.015 ERROR 40944 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:26:29.015  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:26:29 CST 2020
+2020-08-12 15:26:29.018 ERROR 40944 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:26:39.013  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:26:39 CST 2020
+2020-08-12 15:26:39.017 ERROR 40944 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:26:49.014  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:26:49 CST 2020
+2020-08-12 15:26:49.016 ERROR 40944 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at com.ptr2nextpole.community.cache.HotTagCache.updateTags(HotTagCache.java:41) ~[classes/:na]
+	at com.ptr2nextpole.community.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_262]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_262]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_262]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_262]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_262]
+
+2020-08-12 15:26:59.262  WARN 40944 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:26:59.752  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:26:59 CST 2020
+2020-08-12 15:26:59.760  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:26:59 CST 2020
+2020-08-12 15:27:09.013  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:27:09 CST 2020
+2020-08-12 15:27:09.017  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:27:09 CST 2020
+2020-08-12 15:27:19.014  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:27:19 CST 2020
+2020-08-12 15:27:19.018  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:27:19 CST 2020
+2020-08-12 15:27:29.010  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:27:29 CST 2020
+2020-08-12 15:27:29.015  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:27:29 CST 2020
+2020-08-12 15:27:33.268  WARN 40944 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:27:39.014  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:27:39 CST 2020
+2020-08-12 15:27:39.019  INFO 40944 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:27:39 CST 2020
+2020-08-12 15:27:47.820  INFO 40944 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-12 15:27:47.821  INFO 40944 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:27:47.824  INFO 40944 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 15:27:47.832  INFO 40944 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 15:27:54.392  INFO 40990 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 40990 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-12 15:27:54.396  INFO 40990 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-12 15:27:56.056  INFO 40990 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-12 15:27:56.070  INFO 40990 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 15:27:56.070  INFO 40990 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-12 15:27:56.162  INFO 40990 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 15:27:56.162  INFO 40990 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1651 ms
+2020-08-12 15:27:57.072  INFO 40990 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:27:57.366  INFO 40990 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 15:27:57.620  INFO 40990 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-12 15:27:57.699  INFO 40990 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-12 15:27:57.712  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:27:57 CST 2020
+2020-08-12 15:27:57.721  INFO 40990 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 4.198 seconds (JVM running for 7.783)
+2020-08-12 15:27:57.766  INFO 40990 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 15:27:58.009  INFO 40990 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 15:27:58.057  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:27:58 CST 2020
+2020-08-12 15:28:07.718  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:28:07 CST 2020
+2020-08-12 15:28:07.721  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:28:07 CST 2020
+2020-08-12 15:28:17.717  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:28:17 CST 2020
+2020-08-12 15:28:17.719  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:28:17 CST 2020
+2020-08-12 15:28:27.715  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:28:27 CST 2020
+2020-08-12 15:28:27.717  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:28:27 CST 2020
+2020-08-12 15:28:37.717  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:28:37 CST 2020
+2020-08-12 15:28:37.719  INFO 40990 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:28:37 CST 2020
+2020-08-12 15:28:38.198  INFO 40990 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-12 15:28:38.200  INFO 40990 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:28:38.201  INFO 40990 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 15:28:38.204  INFO 40990 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 15:28:43.844  INFO 41010 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 41010 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-12 15:28:43.847  INFO 41010 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-12 15:28:45.169  INFO 41010 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-12 15:28:45.179  INFO 41010 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 15:28:45.180  INFO 41010 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-12 15:28:45.246  INFO 41010 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 15:28:45.246  INFO 41010 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1320 ms
+2020-08-12 15:28:45.892  INFO 41010 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:28:46.078  INFO 41010 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 15:28:46.242  INFO 41010 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-12 15:28:46.307  INFO 41010 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-12 15:28:46.317  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:28:46 CST 2020
+2020-08-12 15:28:46.321  INFO 41010 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 2.966 seconds (JVM running for 5.25)
+2020-08-12 15:28:46.365  INFO 41010 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 15:28:46.581  INFO 41010 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 15:28:46.616  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:28:46 CST 2020
+2020-08-12 15:28:56.323  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:28:56 CST 2020
+2020-08-12 15:28:56.327  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:28:56 CST 2020
+2020-08-12 15:29:06.320  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:29:06 CST 2020
+2020-08-12 15:29:06.322  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:29:06 CST 2020
+2020-08-12 15:29:16.321  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:29:16 CST 2020
+2020-08-12 15:29:16.324  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:29:16 CST 2020
+2020-08-12 15:29:26.319  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:29:26 CST 2020
+2020-08-12 15:29:26.322  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:29:26 CST 2020
+2020-08-12 15:29:36.321  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:29:36 CST 2020
+2020-08-12 15:29:36.325  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:29:36 CST 2020
+2020-08-12 15:29:46.320  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:29:46 CST 2020
+2020-08-12 15:29:46.328  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:29:46 CST 2020
+2020-08-12 15:29:51.268  WARN 41010 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:29:56.321  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:29:56 CST 2020
+2020-08-12 15:29:56.328  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:29:56 CST 2020
+2020-08-12 15:30:06.320  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:30:06 CST 2020
+2020-08-12 15:30:06.326  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:30:06 CST 2020
+2020-08-12 15:30:08.448  WARN 41010 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:30:16.320  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:30:16 CST 2020
+2020-08-12 15:30:16.324  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:30:16 CST 2020
+2020-08-12 15:30:22.425  WARN 41010 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:30:26.318  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:30:26 CST 2020
+2020-08-12 15:30:26.323  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:30:26 CST 2020
+2020-08-12 15:30:36.322  WARN 41010 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:30:36.337  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:30:36 CST 2020
+2020-08-12 15:30:36.343  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:30:36 CST 2020
+2020-08-12 15:30:46.319  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:30:46 CST 2020
+2020-08-12 15:30:46.321  INFO 41010 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:30:46 CST 2020
+2020-08-12 15:30:50.599  INFO 41010 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-12 15:30:50.600  INFO 41010 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:30:50.602  INFO 41010 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 15:30:50.606  INFO 41010 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 15:30:58.121  INFO 41077 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 41077 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-12 15:30:58.126  INFO 41077 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-12 15:30:59.593  INFO 41077 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-12 15:30:59.605  INFO 41077 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 15:30:59.606  INFO 41077 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-12 15:30:59.687  INFO 41077 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 15:30:59.688  INFO 41077 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1458 ms
+2020-08-12 15:31:00.433  INFO 41077 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:31:00.626  INFO 41077 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 15:31:00.788  INFO 41077 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-12 15:31:00.845  INFO 41077 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-12 15:31:00.854  INFO 41077 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:31:00 CST 2020
+2020-08-12 15:31:00.859  INFO 41077 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.404 seconds (JVM running for 6.439)
+2020-08-12 15:31:00.895  INFO 41077 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 15:31:01.202  INFO 41077 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 15:31:01.271  INFO 41077 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:31:01 CST 2020
+2020-08-12 15:31:10.860  INFO 41077 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:31:10 CST 2020
+2020-08-12 15:31:10.865  INFO 41077 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:31:10 CST 2020
+2020-08-12 15:31:20.858  INFO 41077 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:31:20 CST 2020
+2020-08-12 15:31:20.861  INFO 41077 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:31:20 CST 2020
+2020-08-12 15:31:30.857  INFO 41077 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:31:30 CST 2020
+2020-08-12 15:31:30.859  INFO 41077 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:31:30 CST 2020
+2020-08-12 15:31:38.990  INFO 41077 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-12 15:31:38.992  INFO 41077 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:31:38.992  INFO 41077 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 15:31:38.995  INFO 41077 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 15:31:45.631  INFO 41104 --- [main] c.p.community.CommunityApplication       : Starting CommunityApplication on YandeMacBook-Pro.local with PID 41104 (/Users/yan/Code/community/target/classes started by yan in /Users/yan/Code/community)
+2020-08-12 15:31:45.634  INFO 41104 --- [main] c.p.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-08-12 15:31:47.005  INFO 41104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-08-12 15:31:47.017  INFO 41104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 15:31:47.018  INFO 41104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-12 15:31:47.084  INFO 41104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 15:31:47.084  INFO 41104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1368 ms
+2020-08-12 15:31:47.750  INFO 41104 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 15:31:47.981  INFO 41104 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 15:31:48.159  INFO 41104 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-12 15:31:48.225  INFO 41104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-08-12 15:31:48.235  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:31:48 CST 2020
+2020-08-12 15:31:48.240  INFO 41104 --- [main] c.p.community.CommunityApplication       : Started CommunityApplication in 3.206 seconds (JVM running for 5.782)
+2020-08-12 15:31:48.276  INFO 41104 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 15:31:48.465  INFO 41104 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 15:31:48.500  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:31:48 CST 2020
+2020-08-12 15:31:58.240  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:31:58 CST 2020
+2020-08-12 15:31:58.243  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:31:58 CST 2020
+2020-08-12 15:32:08.238  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:32:08 CST 2020
+2020-08-12 15:32:08.241  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:32:08 CST 2020
+2020-08-12 15:32:18.238  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:32:18 CST 2020
+2020-08-12 15:32:18.241  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:32:18 CST 2020
+2020-08-12 15:32:28.238  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:32:28 CST 2020
+2020-08-12 15:32:28.240  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:32:28 CST 2020
+2020-08-12 15:32:38.237  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:32:38 CST 2020
+2020-08-12 15:32:38.242  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:32:38 CST 2020
+2020-08-12 15:32:48.237  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:32:48 CST 2020
+2020-08-12 15:32:48.239  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:32:48 CST 2020
+2020-08-12 15:32:58.239  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:32:58 CST 2020
+2020-08-12 15:32:58.241  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:32:58 CST 2020
+2020-08-12 15:33:08.237  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:33:08 CST 2020
+2020-08-12 15:33:08.239  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:33:08 CST 2020
+2020-08-12 15:33:18.237  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:33:18 CST 2020
+2020-08-12 15:33:18.239  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:33:18 CST 2020
+2020-08-12 15:33:28.236  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:33:28 CST 2020
+2020-08-12 15:33:28.238  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:33:28 CST 2020
+2020-08-12 15:33:38.237  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:33:38 CST 2020
+2020-08-12 15:33:38.239  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:33:38 CST 2020
+2020-08-12 15:33:48.235  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:33:48 CST 2020
+2020-08-12 15:33:48.239  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:33:48 CST 2020
+2020-08-12 15:33:58.252  WARN 41104 --- [scheduling-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.ptr2nextpole.community.mapper]' package. Please check your configuration.
+2020-08-12 15:33:58.257  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Wed Aug 12 15:33:58 CST 2020
+2020-08-12 15:33:58.259  INFO 41104 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Wed Aug 12 15:33:58 CST 2020
