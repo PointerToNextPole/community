@@ -53,7 +53,7 @@ public class QuestionService {
         return questionDTOS;
     }
 
-    public PaginationDTO list(String search, Integer page, Integer size) {
+    public PaginationDTO list(String search, String tag, Integer page, Integer size) {
 
         if(StringUtils.isNotBlank(search)){
             String[] tags = StringUtils.split(search, " ");
@@ -79,6 +79,8 @@ public class QuestionService {
 
         QuestionExample questionExample = new QuestionExample();
         questionExample.setOrderByClause("gmt_create desc");
+
+        questionQueryDTO.setTag(tag);
         questionQueryDTO.setSize(size);
         questionQueryDTO.setPage(offset);
         List<Question> questions = questionExtMapper.selectBySearch(questionQueryDTO);

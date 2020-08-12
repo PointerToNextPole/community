@@ -22,8 +22,8 @@ public class HotTagTasks {
     @Autowired
     private HotTagCache hotTagCache;
 
-    @Scheduled(fixedRate = 10000)
-    //@Scheduled(cron = "0 0 1 * * *")
+//    @Scheduled(fixedRate = 1000 * 60 * 60 * 3)
+    @Scheduled(fixedRate = 1000)
     public void hotTagSchedule() {
 
         int offset = 0;
@@ -50,10 +50,6 @@ public class HotTagTasks {
             offset += limit;
         }
 
-        priorities.forEach((k, v) -> { System.out.println(k + ":" + v); });
-
         hotTagCache.updateTags(priorities);
-
-        log.info("HotTagSchedule stops {}", new Date());
     }
 }
