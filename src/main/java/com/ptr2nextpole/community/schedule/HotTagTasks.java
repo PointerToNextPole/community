@@ -22,7 +22,7 @@ public class HotTagTasks {
     @Autowired
     private HotTagCache hotTagCache;
 
-    @Scheduled(fixedRate = 10000)
+    @Scheduled(fixedRate = 1000 * 60 * 60 * 3)
     //@Scheduled(cron = "0 0 1 * * *")
     public void hotTagSchedule() {
 
@@ -49,8 +49,6 @@ public class HotTagTasks {
             }
             offset += limit;
         }
-
-        priorities.forEach((k, v) -> { System.out.println(k + ":" + v); });
 
         hotTagCache.updateTags(priorities);
 

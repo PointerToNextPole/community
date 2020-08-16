@@ -10,20 +10,19 @@ import java.util.*;
 @Data
 public class HotTagCache {
 
-    private Map<String, Integer> tags = new HashMap<>();
     private List<String> hots = new ArrayList<>();
 
     public void updateTags(Map<String, Integer> tags) {
 
-        //TopN, N = 3
-        int max = 3;
+        //TopN, N = 10
+        int max = 10;
         PriorityQueue<HotTagDTO> priorityQueue = new PriorityQueue<>(max);
 
         tags.forEach((name, priority) -> {
             HotTagDTO hotTagDTO = new HotTagDTO();
             hotTagDTO.setName(name);
             hotTagDTO.setPriority(priority);
-            if (priorityQueue.size() < 3) {
+            if (priorityQueue.size() < max) {
                 priorityQueue.add(hotTagDTO);
             } else {
                 HotTagDTO minHot = priorityQueue.peek();

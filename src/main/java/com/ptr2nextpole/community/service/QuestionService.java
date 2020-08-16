@@ -53,7 +53,7 @@ public class QuestionService {
         return questionDTOS;
     }
 
-    public PaginationDTO list(String search, Integer page, Integer size) {
+    public PaginationDTO list(String search, String tag, Integer page, Integer size) {
 
         if(StringUtils.isNotBlank(search)){
             String[] tags = StringUtils.split(search, " ");
@@ -61,8 +61,10 @@ public class QuestionService {
         }
 
         PaginationDTO paginationDTO = new PaginationDTO();
+
         QuestionQueryDTO questionQueryDTO = new QuestionQueryDTO();
         questionQueryDTO.setSearch(search);
+        questionQueryDTO.setTag(tag);
         Integer totalCount = (int)questionExtMapper.countBySearch(questionQueryDTO);
 
         Integer totalPage = (int) Math.ceil((double) totalCount / size);
