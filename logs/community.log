@@ -3537,3 +3537,7 @@ Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving temp
 2020-08-17 02:00:46.467  INFO 39289 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Mon Aug 17 02:00:46 CST 2020
 2020-08-17 02:00:46.467  INFO 39289 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule starts Mon Aug 17 02:00:46 CST 2020
 2020-08-17 02:00:46.470  INFO 39289 --- [scheduling-1] c.p.community.schedule.HotTagTasks       : HotTagSchedule stops Mon Aug 17 02:00:46 CST 2020
+2020-08-17 02:32:15.940  INFO 39289 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-17 02:32:15.941  INFO 39289 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-17 02:32:15.943  INFO 39289 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-17 02:32:15.947  INFO 39289 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
